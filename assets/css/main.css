@@ -466,6 +466,10 @@ nav {
   font-style: italic;
 }
 
+.post-banner-read {
+  margin-left: auto;
+}
+
 .post-banner-dot { color: rgba(255,255,255,0.3); }
 
 

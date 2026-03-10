@@ -20,10 +20,7 @@ layout: default
       <time class="post-banner-date" datetime="{{ page.date | date_to_xmlschema }}">
         {{ page.date | date: "%B %-d, %Y" }}
       </time>
-      {% if page.read_time %}
-      <span class="post-banner-dot">·</span>
-      <span class="post-banner-read">{{ page.read_time }} min read</span>
-      {% endif %}
+      <span class="post-banner-read">{{ page.content | strip_html | number_of_words | divided_by: 200 | ceil }} min di lettura</span>
     </div>
   </div>
   <div class="post-banner-rule"></div>
