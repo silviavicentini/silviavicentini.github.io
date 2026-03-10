@@ -1,7 +1,7 @@
 # Site settings
 title: "The Attention Span"
 description: "© 2026 Silvia Vicentini"
-baseurl: "/attention-span"
+baseurl: ""
 url: "https://silviavicentini.github.io"
 lang: it
 hero:
