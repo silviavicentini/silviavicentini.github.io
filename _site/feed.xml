@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="it"><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/attention-span/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/attention-span/" rel="alternate" type="text/html" hreflang="it" /><updated>2026-03-10T20:32:25+01:00</updated><id>http://localhost:4000/attention-span/feed.xml</id><title type="html">The Attention Span</title><subtitle>© 2026 Silvia Vicentini</subtitle><author><name>Silvia Vicentini</name><email></email></author><entry><title type="html">Linguaggio e Large Language Models</title><link href="http://localhost:4000/attention-span/ai/2026/03/10/language.html" rel="alternate" type="text/html" title="Linguaggio e Large Language Models" /><published>2026-03-10T00:00:00+01:00</published><updated>2026-03-10T00:00:00+01:00</updated><id>http://localhost:4000/attention-span/ai/2026/03/10/language</id><content type="html" xml:base="http://localhost:4000/attention-span/ai/2026/03/10/language.html"><![CDATA[<p>I <strong>Large Language Models</strong> (o LLM) sono modelli linguistici con un’ampia gamma di applicazioni, tra cui ad esempio la generazione di codice, la sintesi di documenti, o la traduzione. La loro versatilità deriva dalla loro caratteristica principale: la capacità di <strong>elaborazione e la produzione del linguaggio naturale</strong>.</p>
+
+<p>E’ proprio la complessità del linguaggio che rappresenta al tempo stesso il punto di forza e la principale sfida nella progettazione di questo tipo di modelli. Si possono distinguere due livelli fondamentali che contribuiscono all’espressività del linguaggio:  <strong>sintattico</strong> (ovvero, di struttura) e <strong>semantico</strong> (di significato). Alla luce di questa complessità, è naturale porsi alcune domande: esistono alternative al linguaggio naturale per rappresentare l’informazione? Perché il linguaggio è così flessibile? E cosa rende così difficile generarlo automaticamente?</p>
+
+<h2 id="sintassi">Sintassi</h2>
+<p>Dal punto di vista sintattico esistono diverse alternative <strong>più semplici</strong> rispetto al linguaggio naturale. Se dobbiamo ad esempio organizzare l’inventario di un negozio non useremo una descrizione discorsiva, ma una tabella di questo tipo</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Prodotto</th>
+      <th>Quantità</th>
+      <th>Colore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>T-Shirt</td>
+      <td>34</td>
+      <td>rosso</td>
+    </tr>
+    <tr>
+      <td>Jeans</td>
+      <td>28</td>
+      <td>blu</td>
+    </tr>
+    <tr>
+      <td>Calzini</td>
+      <td>40</td>
+      <td>nero</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>La tabella fornisce un’<strong>organizzazione strutturata</strong> dei dati: è semplice da interpretare, ma vincolante quando dobbiamo rappresentare relazioni complesse.</p>
+
+<p>Immaginiamo ad esempio il caso in cui ogni tipo di prodotto possa avere proprietà diverse, come ad esempio marca o materiale, oltre al colore. In questo caso sarebbe più pratico organizzare i dati in modo <strong>semi-strutturato</strong>:</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"prodotto"</span><span class="p">:</span><span class="w"> </span><span class="s2">"T-Shirt"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"quantità"</span><span class="p">:</span><span class="w"> </span><span class="mi">34</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"proprietà"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"colore"</span><span class="p">:</span><span class="w"> </span><span class="s2">"rosso"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"prodotto"</span><span class="p">:</span><span class="w"> </span><span class="s2">"Jeans"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"quantità"</span><span class="p">:</span><span class="w"> </span><span class="mi">28</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"proprietà"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+      </span><span class="nl">"marca"</span><span class="p">:</span><span class="w"> </span><span class="s2">"X"</span><span class="p">,</span><span class="w">
+      </span><span class="nl">"usato"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"prodotto"</span><span class="p">:</span><span class="w"> </span><span class="s2">"calzini"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"quantità"</span><span class="p">:</span><span class="w"> </span><span class="mi">40</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"proprietà"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+        </span><span class="nl">"materiale"</span><span class="p">:</span><span class="w"> </span><span class="s2">"cotone"</span><span class="w">
+    </span><span class="p">}</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+<p>Questo formato (chiamato JSON) è più flessibile, ma ha dei limiti: presuppone che i campi siano organizzati come coppie chiave:valore (come, ad esempio “prodotto”: “calzini”) con un’interpretazione precisa e concordata.</p>
+
+<p>Nei casi appena visti si parla di <strong>sintassi chiusa</strong>: la struttura è formale, definita e prevedibile. Il linguaggio ha invece una <strong>sintassi aperta</strong>: ogni frase può avere una struttura diversa e lunghezza variabile. Naturalmente, anche il linguaggio deve rispettare delle regole, ovvero le <strong>regole grammaticali</strong>: queste forniscono uno schema strutturale ad alto livello, ma non limitano la complessità delle frasi che possiamo costruire. Grazie alla grammatica, è possibile rappresentare formalmente frasi nel linguaggio naturale tramite una struttura ad albero nota come  <strong>Abstract Syntax Tree</strong>. Questo tipo di rappresentazione non ha profondità predefinita, riflettendo quindi la natura variabile del linguaggio.</p>
+
+<p class="centered-image"><img src="/attention-span/assets/images/ast.svg" alt="Abstract Syntax Tree esempio" /></p>
+
+<h2 id="semantica">Semantica</h2>
+<p>La ricchezza del linguaggio non è però solo sintattica, ma <strong>soprattutto semantica</strong>. Non è sufficiente generare frasi sintatticamente  (grammaticalmente) corrette, ma è necessario anche che abbiano un significato appropriato rispetto al contesto. Infatti, se nel formato JSON il significato stesso di chiave e valore deve essere concordato, nel caso del linguaggio emerge dinamicamente dal discorso stesso. Ad esempio “Mi passi il sale?” è sintatticamente una domanda, ma è solo grazie alla nostra interpretazione ed esperienza che sappiamo che è anche una richiesta. E’ questa variabilità che rende il linguaggio così potente e così difficile da modellare. Per questo motivo, sviluppare un modello che generi linguaggio significa progettare un sistema che, date enormi moli di dati, apprenda in modo statistico come le parole co-occorrono e si relazionano tra loro in vari contesti.</p>
+
+<p>Il meccanismo principale che permette di farlo nei modelli odierni è la cosiddetta <strong>self-attention</strong>. Data una sequenza di parole, tale meccanismo opera in due passaggi:</p>
+<ul>
+  <li>impara a stabilire <strong>l’importanza di ogni parola rispetto alle altre</strong>. Una parola è tanto più importante tanto più è correlata (co-occorre) con le altre parole della frase.</li>
+  <li>impara a stabilire <strong>l’importanza della parola al fine di predire la successiva</strong>.</li>
+</ul>
+
+<p>Consideriamo ad esempio la frase <em>“Il gatto beve il latte”</em>. In questo caso la parola “latte” sarà fortemente correlata a “beve”, mentre avrà una relazione più debole con “il”. In una rappresentazione visiva queste relazioni appaiono come celle più o meno scure: più il colore è scuro, maggiore è l’importanza della relazione tra due parole. Si può notare anche che una parola risulta correlata con sè stessa: questo accade spesso perchè il modello non deve utilizzare solo la mutua relazione tra parole ma anche il suo significato originale. È importante notare che queste correlazioni non sono memorizzate staticamente: il modello apprende invece come calcolarle dinamicamente, applicando lo stesso meccanismo a qualsiasi frase nuova. Inoltre, spesso il meccanismo di l’attenzione non cattura una sola relazione linguistica. Vengono generate diverse matrici di questo tipo e ognuna di queste impara relazioni diverse, ad esempio che collega articoli e nomi, soggetti e verbi, o la posizione delle parole nella frase.</p>
+
+<p class="centered-image"><img src="/attention-span/assets/images/self_attention.svg" alt="Self-attention matrix esempio" /></p>
+
+<p>Il risultato è quindi <strong>un sistema capace di emulare il linguaggio umano</strong>: non recupera semplicemente risposte predefinite, ma genera nuove frasi scegliendo i completamenti più probabili e coerenti con il contesto ricevuto, catturando la dimensione semantica che altre strutture formali non possono rappresentare.</p>]]></content><author><name>Silvia Vicentini</name></author><category term="ai" /><summary type="html"><![CDATA[I Large Language Models (o LLM) sono modelli linguistici con un’ampia gamma di applicazioni, tra cui ad esempio la generazione di codice, la sintesi di documenti, o la traduzione. La loro versatilità deriva dalla loro caratteristica principale: la capacità di elaborazione e la produzione del linguaggio naturale.]]></summary></entry><entry><title type="html">Attenzione e AI generativa</title><link href="http://localhost:4000/attention-span/ai/2026/02/28/attention-span.html" rel="alternate" type="text/html" title="Attenzione e AI generativa" /><published>2026-02-28T00:00:00+01:00</published><updated>2026-02-28T00:00:00+01:00</updated><id>http://localhost:4000/attention-span/ai/2026/02/28/attention-span</id><content type="html" xml:base="http://localhost:4000/attention-span/ai/2026/02/28/attention-span.html"><![CDATA[<p>L’attenzione è la capacità di concentrazione di un individuo su un fenomeno o compito predefinito, con la capacità di escludere stimoli esterni. E’ quindi profondamente legata all’abilità di applicarsi a una materia, di estrarre dal contesto informazioni rilevanti e generare schemi
+mentali generali. Di recente, è nato un rinnovato interesse nei confronti dell’attenzione, a causa della presenza di contenuti digitali frammentati (principalmente sui social) e di strumenti di intelligenza artificiale generativa per l’assistenza allo svolgimento di task. Mentre i primi riguardano la fruizione di contenuti (implicando quindi un comportamento passivo dell’utente), i secondo sono pervasivi della nostra quotidianità, personale e lavorativa, e ci coinvolgono attivamente in cicli di produzione di materiale di vario genere (come testo, codice o immagini). <strong>L’intelligenza artificial generativa permette inoltre una democratizzazione dell’apprendimento</strong>, garantendo l’accesso a risposte di qualità, mirate e concise, e feedback a basso costo. <strong>Ma qual è l’impatto dell’AI generativa sulle nostre capacità cognitive?</strong> è vero che, fornendoci risposte rapide e immediate, contribuiscono alla riduzione delle nostre capacità di concentrazione? inoltre, come possiamo utilizzarla in un ruolo di apprendimento attivo?</p>
+
+<p>Sono stati pubblicati due lavori recenti che evidenziano prime analisi e risultati al riguardo. Il primo lavoro <a href="link">https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/</a> ha lo scopo di studiare la percezione del pensiero critico e del carico cognitivo da parte di chi usa l’intelligenza artificiale per lavoro. Il sondaggio condotto evidenzia come <strong>chi lavora utilizzando la GenAI abbia una percezione gonfiata della sua affidabilità e riduca quindi l’applicazione del pensiero critico</strong> ai compiti a cui è applicata. Un secondo lavoro <a href="link">https://arxiv.org/abs/2506.08872</a> uscito di recente si è occupato di registrare l’attività cerebrale dei partecipanti divisi in tre gruppi, con l’obiettivo di produrre un breve testo: chi utilizzava modelli di AI generativa, chi motori di ricerca, e chi nessuno strumento di supporto. E’ stato evidenziato come <strong>chi utilizzasse l’AI mostrasse attività ridotte di attenzione, linguaggio e funzioni esecutive</strong>. Quando gli stessi venivano posti davanti alla risoluzione del compito senza l’uso di AI, l’attività cerebrale risultava ridotta e meno coordinata rispetto a quella di chi non aveva usato AI fin dall’inizio, suggerendo quindi che l’utilizzo di problem-solving e pensiero critico vada coltivata nel tempo. Non solo: chi ha potuto utilizzare l’AI solo dopo aver prodotto il testo senza nessuno strumento, ha mostrato una attività cerebrale ampia e aumentata, suggerendo che l’introduzione di informazioni esogene (prodotte dall’AI) ha portato i soggetti a riconciliare le nuove informazioni con il loro schema di lavoro endogeno preesistente. La qualità degli elaborati è stata valutata simile nei due casi (con un percepita riduzione di “creatività” nel caso delle produzioni con LLM).</p>
+
+<blockquote>
+  <p>Questi risultati da una parte confermano un sospetto già nato: l’utilizzo di strumenti di GenAI può essere un supporto di qualità ed economico, ma va utilizzato con consapevolezza per quanto riguarda i propri obiettivi formativi.</p>
+</blockquote>
+
+<p>Quali sono quindi i metodi che possiamo adottare per supportare il nostro apprendimento con l’AI generativa? Come già evidenziato negli scorsi paragrafi, il punto sta nel <strong>produrre anzichè consumare</strong>. Si tratta di utilizzare i risultati dell’intelligenza artificiale in rapporto dialogico con le nostre informazioni, schemi o ricordi. Questo può svolgersi secondo diversi paradigmi: ad esempio, chiedendo all’AI come migliorare un contenuto prodotto senza il suo utilizzo, di evidenziare “scorciatoie” logiche di ragionamento, imprecisioni, introdurre alternative, o chiedendo di controargomentare la nostra tesi.</p>
+
+<p>L’AI generativa è uno strumento potente e neutro rispetto ai nostri obiettivi cognitivi: può accelerare l’apprendimento o sostituirlo. La sfida quindi non è tecnica ma umana e consiste nell’utilizzare lo strumento in modo consapevole e coerente con i propri obiettivi.</p>]]></content><author><name>Silvia Vicentini</name></author><category term="ai" /><summary type="html"><![CDATA[L’attenzione è la capacità di concentrazione di un individuo su un fenomeno o compito predefinito, con la capacità di escludere stimoli esterni. E’ quindi profondamente legata all’abilità di applicarsi a una materia, di estrarre dal contesto informazioni rilevanti e generare schemi mentali generali. Di recente, è nato un rinnovato interesse nei confronti dell’attenzione, a causa della presenza di contenuti digitali frammentati (principalmente sui social) e di strumenti di intelligenza artificiale generativa per l’assistenza allo svolgimento di task. Mentre i primi riguardano la fruizione di contenuti (implicando quindi un comportamento passivo dell’utente), i secondo sono pervasivi della nostra quotidianità, personale e lavorativa, e ci coinvolgono attivamente in cicli di produzione di materiale di vario genere (come testo, codice o immagini). L’intelligenza artificial generativa permette inoltre una democratizzazione dell’apprendimento, garantendo l’accesso a risposte di qualità, mirate e concise, e feedback a basso costo. Ma qual è l’impatto dell’AI generativa sulle nostre capacità cognitive? è vero che, fornendoci risposte rapide e immediate, contribuiscono alla riduzione delle nostre capacità di concentrazione? inoltre, come possiamo utilizzarla in un ruolo di apprendimento attivo?]]></summary></entry></feed>

@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<!-- HEADER  -->
+<header class="post-banner">
+  <div class="post-banner-content">
+    <div class="post-banner-meta">
+      <a class="post-back" href="{{ '/' | relative_url }}">← Home</a>
+      <span class="post-banner-sep">/</span>
+      <a class="post-back" href="{{ '/' | append: page.category | relative_url }}">
+        {{ page.category | capitalize }}
+      </a>
+    </div>
+    <span class="post-category-pill pill-{{ page.category }}">{{ page.category | capitalize }}</span>
+    <h1 class="post-banner-title">{{ page.title }}</h1>
+    <div class="post-banner-byline">
+      <span class="post-banner-author">{{ page.author | default: site.author.name }}</span>
+      <span class="post-banner-dot">·</span>
+      <time class="post-banner-date" datetime="{{ page.date | date_to_xmlschema }}">
+        {{ page.date | date: "%B %-d, %Y" }}
+      </time>
+      {% if page.read_time %}
+      <span class="post-banner-dot">·</span>
+      <span class="post-banner-read">{{ page.read_time }} min read</span>
+      {% endif %}
+    </div>
+  </div>
+  <div class="post-banner-rule"></div>
+</header>
+
+<!-- BODY -->
+<div class="post-wrap">
+
+  <article class="post-body">
+    {{ content }}
+    {% if page.tags.size > 0 %}
+    <div class="post-tags">
+      {% for tag in page.tags %}
+      <span class="tag tag-{{ page.category }}">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+
+</div>
+
+<!-- RELATED POSTS -->
+{% assign related = site.posts | where: "category", page.category | limit: 3 %}
+{% assign related = related | where_exp: "post", "post.url != page.url" %}
+{% if related.size > 0 %}
+<section class="post-related">
+  <div class="post-related-inner">
+    <h2 class="post-related-title">Contenuti simili <em></em></h2>
+    <div class="post-related-grid">
+      {% for rel in related limit: 3 %}
+      <a class="post-related-item" href="{{ rel.url | relative_url }}">
+        <span class="post-related-date">{{ rel.date | date: "%b %-d, %Y" }}</span>
+        <h3 class="post-related-item-title">{{ rel.title }}</h3>
+        {% if rel.excerpt %}
+        <p class="post-related-excerpt">{{ rel.excerpt | strip_html | truncatewords: 18 }}</p>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}

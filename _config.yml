@@ -1,3 +1,50 @@
-title: My GitHub Page
-description: My GitHub Page
-theme: minima
+# Site settings
+title: "The Attention Span"
+description: "© 2026 Silvia Vicentini"
+baseurl: "/attention-span"
+url: "https://silviavicentini.github.io"
+lang: it
+hero:
+  role: ""
+  name: "Pensieri <br> sull'intelligenza artificiale  <br> e i libri che cambiano il modo di pensare."
+  tagline: "Quello che cattura la mia attenzione, scritto come posso."
+
+author:
+  name: Silvia Vicentini
+  email: ""
+  github: https://github.com/silviavicentini
+
+# Navigation
+navigation:
+  - name: Home
+    url: /
+  - name: AI
+    url: /ai
+  - name: Libri
+    url: /books
+  - name: About
+    url: /about
+
+# Plugins
+plugins:
+  - jekyll-feed
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+collections:
+  pages:
+    output: true
+    permalink: /:name/
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - context

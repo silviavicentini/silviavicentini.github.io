@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<!-- BANNER -->
+<header class="banner">
+  <div class="banner-content">
+    <p class="banner-eyebrow">{{ site.hero.role}}</p>
+    <h1 class="banner-title">{{ site.hero.name | default: site.title }}</h1>
+    <p class="banner-sub">{{ site.hero.tagline | default: site.description }}</p>
+  </div>
+
+  {% include banner.svg %}
+
+  <div class="banner-rule"></div>
+</header>
+<main class="main">
+
+  <!-- RECENT POSTS (LEFT)-->
+  <section>
+    <p class="in-evidenza-label">Post Recenti</p>
+    <div class="in-evidenza-divider"></div>
+    <div class="post-list">
+      {% assign recent_posts = site.posts | limit: 6 %}
+      {% for post in recent_posts %}
+      <article class="post-item featured">
+        <div>
+          <p class="post-category">
+            <span class="post-category-dot dot-{{ post.category }}"></span>
+            {{ post.category | capitalize }}
+          </p>
+          <h3 class="post-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+          {% if post.excerpt %}
+          <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+          {% endif %}
+        </div>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </article>
+      {% endfor %}
+    </div>
+
+  </section>
+
+  <!-- IN EVIDENZA (RIGHT) -->
+  <aside class="in-evidenza">
+    <p class="in-evidenza-label">In evidenza</p>
+    <div class="in-evidenza-divider"></div>
+
+    {% assign featured_posts = site.posts | where: "selected", true %}
+    {% for post in featured_posts %}
+    <article class="in-evidenza-item">
+      <p class="post-category">
+        <span class="post-category-dot dot-{{ post.category }}"></span>
+        {{ post.category | capitalize }}
+      </p>
+      <h3 class="in-evidenza-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+    </article>
+    {% endfor %}
+  </aside>
+
+</main>

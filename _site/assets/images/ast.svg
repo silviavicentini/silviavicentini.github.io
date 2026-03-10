@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="580"
+   height="320"
+   font-family="monospace, sans-serif"
+   version="1.1"
+   id="svg18"
+   sodipodi:docname="ast.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.41875"
+     inkscape:cx="250.74935"
+     inkscape:cy="159.79328"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
+  <!-- Background -->
+  <!-- Title -->
+  <text
+     x="290"
+     y="28"
+     text-anchor="middle"
+     fill="#a0a0c0"
+     font-size="13px"
+     letter-spacing="2"
+     id="text1"><tspan
+       style="fill:#24221c"
+       id="tspan18">AST &quot;Il gatto beve il latte&quot;</tspan></text>
+  <!-- ROOT: Frase -->
+  <text
+     x="238.90697"
+     y="67.582642"
+     text-anchor="middle"
+     fill="#e0e0f0"
+     font-size="10.466px"
+     font-weight="bold"
+     id="text2"
+     style="fill:#000000;stroke-width:0.805079"
+     transform="scale(1.0603778,0.94306012)">Frase</text>
+  <!-- Level 2: SN (soggetto) + SV (predicato) -->
+  <rect
+     x="74.057175"
+     y="104.73334"
+     width="110.97942"
+     height="24.295612"
+     rx="5.1221275"
+     fill="#1e2235"
+     stroke="#4a5080"
+     stroke-width="1.20762"
+     id="rect3"
+     style="fill:#ffeeaa" />
+  <text
+     x="122.1705"
+     y="127.96357"
+     text-anchor="middle"
+     fill="#7ec8e3"
+     font-size="9.66095px"
+     id="text3"
+     style="fill:#000000;stroke-width:0.805079"
+     transform="scale(1.0603778,0.94306012)">SintagmaNominale</text>
+  <rect
+     x="321.62668"
+     y="104.73334"
+     width="110.97942"
+     height="24.295612"
+     rx="5.1221275"
+     fill="#1e2235"
+     stroke="#4a5080"
+     stroke-width="1.20762"
+     id="rect4"
+     style="fill:#ffeeaa" />
+  <rect
+     x="367.25757"
+     y="163.47461"
+     width="110.97942"
+     height="24.295612"
+     rx="5.1221275"
+     fill="#1e2235"
+     stroke="#4a5080"
+     stroke-width="1.20762"
+     id="rect4-9"
+     style="fill:#ffeeaa" />
+  <text
+     x="355.6434"
+     y="127.96357"
+     text-anchor="middle"
+     fill="#7ec8e3"
+     font-size="9.66095px"
+     id="text4"
+     style="fill:#000000;stroke-width:0.805079"
+     transform="scale(1.0603778,0.94306012)">SintagmaVerbale</text>
+  <!-- Lines from Frase to SN and SV -->
+  <line
+     x1="253.33163"
+     y1="72.086113"
+     x2="129.54689"
+     y2="104.73334"
+     stroke="#4a5080"
+     stroke-width="1.20762"
+     id="line4" />
+  <line
+     x1="253.33163"
+     y1="72.086113"
+     x2="377.11636"
+     y2="104.73334"
+     stroke="#4a5080"
+     stroke-width="1.20762"
+     id="line5" />
+  <!-- Level 3: Det + N (under SN) -->
+  <rect
+     x="39.909657"
+     y="165.47237"
+     width="59.758152"
+     height="22.777138"
+     rx="4.2684393"
+     fill="#12151f"
+     stroke="#353860"
+     stroke-width="0.805079"
+     id="rect5"
+     style="fill:#ffeeaa" />
+  <text
+     x="65.814972"
+     y="191.5648"
+     text-anchor="middle"
+     fill="#f0c060"
+     font-size="9.66095px"
+     id="text5"
+     style="fill:#ff6600;stroke-width:0.805079"
+     transform="scale(1.0603778,0.94306012)">Det</text>
+  <rect
+     x="116.74157"
+     y="165.47237"
+     width="59.758152"
+     height="22.777138"
+     rx="4.2684393"
+     fill="#12151f"
+     stroke="#353860"
+     stroke-width="0.805079"
+     id="rect6"
+     style="fill:#ffeeaa" />
+  <text
+     x="138.27208"
+     y="191.5648"
+     text-anchor="middle"
+     fill="#f0c060"
+     font-size="9.66095px"
+     id="text6"
+     style="fill:#ff6600;stroke-width:0.805079"
+     transform="scale(1.0603778,0.94306012)">N</text>
+  <!-- Lines from SN to Det and N -->
+  <line
+     x1="129.54689"
+     y1="129.02895"
+     x2="69.788734"
+     y2="165.47237"
+     stroke="#353860"
+     stroke-width="1.20762"
+     id="line6" />
+  <line
+     x1="129.54689"
+     y1="129.02895"
+     x2="146.62065"
+     y2="165.47237"
+     stroke="#353860"
+     stroke-width="1.20762"
+     id="line7" />
+  <rect
+     x="333.04596"
+     y="223.99768"
+     width="59.758152"
+     height="22.777138"
+     rx="4.2684393"
+     fill="#12151f"
+     stroke="#353860"
+     stroke-width="0.805079"
+     id="rect5-8"
+     style="fill:#ffeeaa" />
+  <text
+     x="342.2601"
+     y="253.62376"
+     text-anchor="middle"
+     fill="#f0c060"
+     font-size="9.66095px"
+     id="text5-8"
+     style="fill:#ff6600;stroke-width:0.805079"
+     transform="scale(1.0603778,0.94306011)">Det</text>
+  <rect
+     x="409.87787"
+     y="223.99768"
+     width="59.758152"
+     height="22.777138"
+     rx="4.2684393"
+     fill="#12151f"
+     stroke="#353860"
+     stroke-width="0.805079"
+     id="rect6-2"
+     style="fill:#ffeeaa" />
+  <text
+     x="414.71722"
+     y="253.62376"
+     text-anchor="middle"
+     fill="#f0c060"
+     font-size="9.66095px"
+     id="text6-4"
+     style="fill:#ff6600;stroke-width:0.805079"
+     transform="scale(1.0603778,0.94306011)">N</text>
+  <line
+     x1="422.68317"
+     y1="187.55426"
+     x2="362.92502"
+     y2="223.99768"
+     stroke="#353860"
+     stroke-width="1.20762"
+     id="line6-5" />
+  <line
+     x1="422.68317"
+     y1="187.55426"
+     x2="439.75693"
+     y2="223.99768"
+     stroke="#353860"
+     stroke-width="1.20762"
+     id="line7-5" />
+  <!-- Level 3: V + SN-oggetto (under SV) -->
+  <rect
+     x="287.47916"
+     y="165.47237"
+     width="59.758152"
+     height="22.777138"
+     rx="4.2684393"
+     fill="#12151f"
+     stroke="#353860"
+     stroke-width="0.805079"
+     id="rect7"
+     style="fill:#ffeeaa" />
+  <text
+     x="299.28787"
+     y="191.5648"
+     text-anchor="middle"
+     fill="#f0c060"
+     font-size="9.66095px"
+     id="text7"
+     style="fill:#ff6600;stroke-width:0.805079"
+     transform="scale(1.0603778,0.94306012)">V</text>
+  <text
+     x="395.89737"
+     y="191.5648"
+     text-anchor="middle"
+     fill="#7ec8e3"
+     font-size="9.66095px"
+     id="text8"
+     transform="scale(1.0603778,0.94306012)"
+     style="stroke-width:0.805079"><tspan
+       style="fill:#000000;stroke-width:0.805079"
+       id="tspan21">SintagmaNominale</tspan></text>
+  <!-- Lines from SV -->
+  <line
+     x1="377.11636"
+     y1="129.02895"
+     x2="317.35822"
+     y2="165.47237"
+     stroke="#353860"
+     stroke-width="1.20762"
+     id="line8" />
+  <line
+     x1="377.09842"
+     y1="129.00792"
+     x2="417.75156"
+     y2="163.83965"
+     stroke="#353860"
+     stroke-width="1.15218"
+     id="line9" />
+  <!-- Level 4: Det + N under SN-oggetto -->
+  <!-- Leaf words -->
+  <text
+     x="68.38501"
+     y="208.80104"
+     text-anchor="middle"
+     fill="#80e0a0"
+     font-size="12px"
+     font-style="italic"
+     id="text11"
+     style="fill:#338000">il</text>
+  <text
+     x="143.91473"
+     y="208.80104"
+     text-anchor="middle"
+     fill="#80e0a0"
+     font-size="12px"
+     font-style="italic"
+     id="text12"
+     style="fill:#338000">gatto</text>
+  <text
+     x="318.28165"
+     y="205.49355"
+     text-anchor="middle"
+     fill="#80e0a0"
+     font-size="12px"
+     font-style="italic"
+     id="text13"
+     style="fill:#338000">beve</text>
+  <text
+     x="361.18863"
+     y="267.41602"
+     text-anchor="middle"
+     fill="#80e0a0"
+     font-size="12px"
+     font-style="italic"
+     id="text14"
+     style="fill:#338000">il</text>
+  <text
+     x="437.88113"
+     y="267.82947"
+     text-anchor="middle"
+     fill="#80e0a0"
+     font-size="12px"
+     font-style="italic"
+     id="text15"
+     style="fill:#338000">latte</text>
+  <!-- Legend -->
+  <rect
+     x="20"
+     y="285"
+     width="12"
+     height="12"
+     rx="2"
+     fill="#1e2235"
+     stroke="#4a5080"
+     stroke-width="1"
+     id="rect15"
+     style="fill:#000000" />
+  <text
+     x="38"
+     y="296"
+     fill="#7ec8e3"
+     font-size="10px"
+     id="text16"><tspan
+       style="fill:#000000"
+       id="tspan19">sintagma</tspan></text>
+  <rect
+     x="100"
+     y="285"
+     width="12"
+     height="12"
+     rx="2"
+     fill="#12151f"
+     stroke="#353860"
+     stroke-width="1"
+     id="rect16"
+     style="fill:#ff7f2a" />
+  <text
+     x="118"
+     y="296"
+     fill="#f0c060"
+     font-size="10px"
+     id="text17"><tspan
+       style="fill:#ff7f2a"
+       id="tspan20">categoria grammaticale</tspan></text>
+</svg>

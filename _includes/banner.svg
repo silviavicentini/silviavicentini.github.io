@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 520 220"
+   width="1040"
+   height="440"
+   version="1.1"
+   id="svg70"
+   sodipodi:docname="banner_fix.svg"
+   inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.7048077"
+     inkscape:cx="371.59616"
+     inkscape:cy="317.63113"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="520"
+       height="220"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="swatch21">
+      <stop
+         style="stop-color:#03041a;stop-opacity:1;"
+         offset="0"
+         id="stop21" />
+    </linearGradient>
+    <linearGradient
+       id="swatch13">
+      <stop
+         style="stop-color:#780987;stop-opacity:1;"
+         offset="0"
+         id="stop13" />
+    </linearGradient>
+    <linearGradient
+       id="swatch1">
+      <stop
+         style="stop-color:#cfb68a;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+    </linearGradient>
+    <linearGradient
+       id="swatch87">
+      <stop
+         style="stop-color:#fefefe;stop-opacity:1;"
+         offset="0"
+         id="stop87" />
+    </linearGradient>
+    <linearGradient
+       id="swatch85">
+      <stop
+         style="stop-color:#fefefe;stop-opacity:1;"
+         offset="0"
+         id="stop85" />
+    </linearGradient>
+    <linearGradient
+       id="swatch81">
+      <stop
+         style="stop-color:#fefefe;stop-opacity:1;"
+         offset="0"
+         id="stop81" />
+    </linearGradient>
+    <linearGradient
+       id="swatch80">
+      <stop
+         style="stop-color:#fefefe;stop-opacity:1;"
+         offset="0"
+         id="stop80" />
+    </linearGradient>
+    <linearGradient
+       id="swatch79">
+      <stop
+         style="stop-color:#fefefe;stop-opacity:1;"
+         offset="0"
+         id="stop79" />
+    </linearGradient>
+    <linearGradient
+       id="swatch78">
+      <stop
+         style="stop-color:#fefefe;stop-opacity:1;"
+         offset="0"
+         id="stop78" />
+    </linearGradient>
+    <linearGradient
+       id="swatch77">
+      <stop
+         style="stop-color:#fefefe;stop-opacity:1;"
+         offset="0"
+         id="stop77" />
+    </linearGradient>
+    <linearGradient
+       id="swatch76">
+      <stop
+         style="stop-color:#fefefe;stop-opacity:1;"
+         offset="0"
+         id="stop76" />
+    </linearGradient>
+    <linearGradient
+       id="swatch75">
+      <stop
+         style="stop-color:#fefefe;stop-opacity:1;"
+         offset="0"
+         id="stop75" />
+    </linearGradient>
+    <linearGradient
+       id="swatch73">
+      <stop
+         style="stop-color:#fefefe;stop-opacity:1;"
+         offset="0"
+         id="stop73" />
+    </linearGradient>
+    <!-- Page cream color for all books -->
+    <linearGradient
+       xlink:href="#swatch73"
+       id="linearGradient73"
+       x1="308"
+       y1="98"
+       x2="352"
+       y2="98"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.95686038,0,0,0.92160619,13.262562,9.2749073)" />
+    <linearGradient
+       xlink:href="#swatch75"
+       id="linearGradient75"
+       x1="297"
+       y1="145"
+       x2="313"
+       y2="145"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.69997907,0,0,0.86657683,89.253107,20.710242)" />
+    <linearGradient
+       xlink:href="#swatch76"
+       id="linearGradient76"
+       x1="312"
+       y1="60"
+       x2="348"
+       y2="60"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch77"
+       id="linearGradient77"
+       x1="352"
+       y1="94"
+       x2="370"
+       y2="94"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch78"
+       id="linearGradient78"
+       x1="367"
+       y1="104.5"
+       x2="378"
+       y2="104.5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.012443,0,0,0.66077168,-16.023852,94.277296)" />
+    <linearGradient
+       xlink:href="#swatch79"
+       id="linearGradient79"
+       x1="290"
+       y1="94"
+       x2="308"
+       y2="94"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch80"
+       id="linearGradient80"
+       x1="320"
+       y1="68"
+       x2="340"
+       y2="68"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch81"
+       id="linearGradient81"
+       x1="317"
+       y1="102"
+       x2="343"
+       y2="102"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch81"
+       id="linearGradient82"
+       x1="317"
+       y1="105"
+       x2="340"
+       y2="105"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch85"
+       id="linearGradient85"
+       x1="306"
+       y1="135.5"
+       x2="310"
+       y2="135.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch85"
+       id="linearGradient86"
+       x1="310"
+       y1="122"
+       x2="318"
+       y2="122"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch87"
+       id="linearGradient87"
+       x1="330"
+       y1="40.5"
+       x2="330"
+       y2="40.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch1"
+       id="linearGradient1"
+       x1="388.89127"
+       y1="201.5"
+       x2="407.10873"
+       y2="201.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch1"
+       id="linearGradient2"
+       x1="388.89127"
+       y1="198.5"
+       x2="407.10873"
+       y2="198.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch1"
+       id="linearGradient3"
+       x1="388.89127"
+       y1="195.5"
+       x2="407.10873"
+       y2="195.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch1"
+       id="linearGradient4"
+       x1="388.89127"
+       y1="192.5"
+       x2="407.10873"
+       y2="192.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch1"
+       id="linearGradient5"
+       x1="388.89127"
+       y1="189.5"
+       x2="407.10873"
+       y2="189.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch1"
+       id="linearGradient6"
+       x1="389.40451"
+       y1="186.20671"
+       x2="407.62198"
+       y2="186.20671"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch1"
+       id="linearGradient7"
+       x1="388.89127"
+       y1="183.5"
+       x2="407.10873"
+       y2="183.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch1"
+       id="linearGradient8"
+       x1="388.89127"
+       y1="180.5"
+       x2="407.10873"
+       y2="180.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch87"
+       id="linearGradient86-9"
+       x1="310"
+       y1="122"
+       x2="318"
+       y2="122"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch87"
+       id="linearGradient85-8"
+       x1="306"
+       y1="135.5"
+       x2="310"
+       y2="135.5"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch75"
+       id="linearGradient10"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.69997907,0,0,0.86657683,110.92424,17.960368)"
+       x1="297"
+       y1="145"
+       x2="313"
+       y2="145" />
+    <linearGradient
+       xlink:href="#swatch87"
+       id="linearGradient77-5"
+       x1="352"
+       y1="94"
+       x2="370"
+       y2="94"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch87"
+       id="linearGradient79-2"
+       x1="290"
+       y1="94"
+       x2="308"
+       y2="94"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch78"
+       id="linearGradient11"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.012443,0,0,0.66077168,-99.950363,18.394878)"
+       x1="367"
+       y1="104.5"
+       x2="378"
+       y2="104.5" />
+    <linearGradient
+       xlink:href="#swatch87"
+       id="linearGradient77-8"
+       x1="352"
+       y1="94"
+       x2="370"
+       y2="94"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch87"
+       id="linearGradient77-8-4"
+       x1="352"
+       y1="94"
+       x2="370"
+       y2="94"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch87"
+       id="linearGradient77-8-4-4"
+       x1="352"
+       y1="94"
+       x2="370"
+       y2="94"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch87"
+       id="linearGradient77-8-4-42"
+       x1="352"
+       y1="94"
+       x2="370"
+       y2="94"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch87"
+       id="linearGradient12"
+       gradientUnits="userSpaceOnUse"
+       x1="352"
+       y1="94"
+       x2="370"
+       y2="94" />
+    <linearGradient
+       xlink:href="#swatch13"
+       id="linearGradient13"
+       x1="307.59995"
+       y1="99.592308"
+       x2="350.45303"
+       y2="99.592308"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch13"
+       id="linearGradient14"
+       x1="354.94901"
+       y1="162.65723"
+       x2="366.7402"
+       y2="162.65723"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(0.26657533,0.67070372)" />
+    <linearGradient
+       xlink:href="#swatch13"
+       id="linearGradient15"
+       x1="296.83536"
+       y1="146.36388"
+       x2="308.65808"
+       y2="146.36388"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       xlink:href="#swatch13"
+       id="linearGradient16"
+       x1="320.41641"
+       y1="142.58905"
+       x2="332.23914"
+       y2="142.58905"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1.9099422,1.0249452)" />
+    <linearGradient
+       xlink:href="#swatch21"
+       id="linearGradient21"
+       x1="227.30754"
+       y1="106.80419"
+       x2="326.96487"
+       y2="106.80419"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer3"
+     style="display:inline"
+     transform="translate(0.21996616)">
+    <rect
+       width="523.51947"
+       height="220"
+       fill="#780987"
+       id="rect1"
+       x="-0.73322105"
+       y="-0.43993241"
+       style="stroke-width:1.00338" />
+    <polygon
+       points="420,220 260,220 340,80 "
+       fill="#50055c"
+       opacity="0.18"
+       id="polygon3"
+       transform="translate(-170.10717,0.29328825)" />
+  </g>
+  <!-- Background -->
+  <!-- Geometric bg shapes -->
+  <!-- ══════════════════════════════════════════════════════
+       BOOKS — closely matching reference style
+       3 books stacked, slightly offset, each with:
+         - top face (perspective trapezoid)
+         - front face (cover)
+         - right side face (pages, cream)
+         - thick cover edges
+       Colors: teal, white/light, purple (our palette)
+       Centered around x=310, bottom at y=210
+  ══════════════════════════════════════════════════════ -->
+  <!-- ── BOOK 1: Bottom-most (teal, widest, tilted slightly left) ── -->
+  <!-- ── BOOK 2: Middle (purple, offset right, slightly smaller) ── -->
+  <!-- ── BOOK 3: Top (white/light, narrower, most offset — robot sits here) ── -->
+  <!-- ══════════════════════════════════════
+       ROBOT — sitting on top book
+       Centered around x=330 (on top of book 3)
+       Body base at y=88, book top at ~y=121
+  ══════════════════════════════════════════ -->
+  <!-- Floating dots -->
+  <!-- Teal horizontal lines (right side) -->
+  <g
+     id="layer2"
+     style="display:inline"
+     transform="translate(0.58657643,-0.21996615)">
+    <g
+       id="layer1"
+       transform="translate(6.1590526,-11.511562)"
+       style="display:inline">
+      <line
+         x1="322.35602"
+         y1="109.12902"
+         x2="221.84146"
+         y2="109.1885"
+         stroke="#c0b0d0"
+         stroke-width="1.87165"
+         opacity="0.8"
+         id="line38-9"
+         style="display:inline;fill:url(#linearGradient21);fill-opacity:1;stroke:#3c90a3;stroke-opacity:1" />
+      <line
+         x1="338.79355"
+         y1="179.3008"
+         x2="191.66147"
+         y2="179.38564"
+         stroke="#149e88"
+         stroke-width="2.36945"
+         opacity="0.8"
+         id="line13-1"
+         style="opacity:1;fill:#cccccc;fill-opacity:1;stroke:#e1e1e1;stroke-opacity:1" />
+    </g>
+    <circle
+       cx="60"
+       cy="151"
+       r="55"
+       fill="#1fd1b6"
+       opacity="0.18"
+       id="circle1" />
+    <circle
+       cx="478.19855"
+       cy="114.16386"
+       r="110"
+       fill="#1fd1b6"
+       opacity="0.18"
+       id="circle2" />
+    <circle
+       cx="499.26138"
+       cy="149.48874"
+       r="80"
+       fill="#500550"
+       opacity="0.3"
+       id="circle3" />
+    <g
+       id="book-bottom"
+       transform="matrix(1.2255076,0.02564515,-0.02249962,1.2928181,-129.47148,-77.705733)">
+      <!-- RIGHT SIDE: page block (cream/warm white) -->
+      <path
+         id="polygon4"
+         style="opacity:1;fill:#e8d5b0;fill-opacity:1"
+         d="m 408,174 v 28 l -20,8 v -28 z" />
+      <!-- Page lines on right side -->
+      <line
+         x1="389"
+         y1="184"
+         x2="407"
+         y2="177"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line4"
+         style="opacity:1;fill:url(#linearGradient8)" />
+      <line
+         x1="389"
+         y1="187"
+         x2="407"
+         y2="180"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line5"
+         style="opacity:1;fill:url(#linearGradient7)" />
+      <line
+         x1="389.51324"
+         y1="189.70671"
+         x2="407.51324"
+         y2="182.70671"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line6"
+         style="opacity:1;fill:url(#linearGradient6)" />
+      <line
+         x1="389"
+         y1="193"
+         x2="407"
+         y2="186"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line7"
+         style="opacity:1;fill:url(#linearGradient5)" />
+      <line
+         x1="389"
+         y1="196"
+         x2="407"
+         y2="189"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line8"
+         style="opacity:1;fill:url(#linearGradient4)" />
+      <line
+         x1="389"
+         y1="199"
+         x2="407"
+         y2="192"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line9"
+         style="opacity:1;fill:url(#linearGradient3)" />
+      <line
+         x1="389"
+         y1="202"
+         x2="407"
+         y2="195"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line10"
+         style="opacity:1;fill:url(#linearGradient2)" />
+      <line
+         x1="389"
+         y1="205"
+         x2="407"
+         y2="198"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line11"
+         style="opacity:1;fill:url(#linearGradient1)" />
+      <line
+         x1="389"
+         y1="208"
+         x2="407"
+         y2="201"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line12"
+         style="opacity:1" />
+      <!-- FRONT FACE: teal cover -->
+      <polygon
+         points="270,212 270,184 388,182 388,210 "
+         fill="#1fd1b6"
+         id="polygon12"
+         style="fill:#f2f2f2;stroke:none"
+         transform="matrix(0.9968735,-4.7580367e-4,-4.4037164e-4,0.97289611,1.3024628,5.6203601)" />
+      <!-- Front cover detail: spine crease line -->
+      <line
+         x1="283.99966"
+         y1="182.99904"
+         x2="284.01208"
+         y2="211.64105"
+         stroke="#149e88"
+         stroke-width="1.51617"
+         opacity="0.8"
+         id="line13"
+         style="fill:#cccccc;fill-opacity:1;stroke:#50625f;stroke-opacity:1" />
+      <!-- Front cover detail: horizontal rule lines -->
+      <!-- TOP FACE: perspective trapezoid -->
+      <path
+         id="polygon15"
+         style="fill:#f2f2f2;stroke-width:1.02514"
+         d="m 410.18257,173.2123 -20.1411,8.1798 -119.64161,2.27416 19.5043,-10.08212 z" />
+      <!-- Top face sheen line -->
+      <!-- Outline -->
+      <polygon
+         points="274,174 408,174 408,202 388,210 270,212 270,184 "
+         fill="none"
+         stroke="none"
+         stroke-width="1.2"
+         stroke-linejoin="round"
+         id="polygon16"
+         transform="matrix(1.0195586,8.7353812e-4,8.0848771e-4,1.0635792,-5.4526067,-13.736296)" />
+    </g>
+    <g
+       id="book-middle"
+       transform="matrix(1.1902486,0.02271439,-0.02185229,1.1450735,-112.88949,-55.405039)">
+      <!-- RIGHT SIDE: page block -->
+      <polygon
+         points="398,148 398,178 378,186 378,156 "
+         fill="#e8d5b0"
+         opacity="0.9"
+         id="polygon17"
+         style="opacity:1;fill:#e8d5b0;stroke:none" />
+      <!-- Page lines -->
+      <line
+         x1="379"
+         y1="158"
+         x2="397"
+         y2="151"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line17"
+         style="opacity:1" />
+      <line
+         x1="379"
+         y1="161"
+         x2="397"
+         y2="154"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line18"
+         style="opacity:1" />
+      <line
+         x1="379"
+         y1="164"
+         x2="397"
+         y2="157"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line19"
+         style="opacity:1" />
+      <line
+         x1="379"
+         y1="167"
+         x2="397"
+         y2="160"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line20"
+         style="opacity:1" />
+      <line
+         x1="379"
+         y1="170"
+         x2="397"
+         y2="163"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line21"
+         style="opacity:1" />
+      <line
+         x1="379"
+         y1="173"
+         x2="397"
+         y2="166"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line22"
+         style="opacity:1" />
+      <line
+         x1="379"
+         y1="176"
+         x2="397"
+         y2="169"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line23"
+         style="opacity:1" />
+      <line
+         x1="379"
+         y1="179"
+         x2="397"
+         y2="172"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line24"
+         style="opacity:1" />
+      <line
+         x1="379"
+         y1="182"
+         x2="397"
+         y2="175"
+         stroke="#c4a97a"
+         stroke-width="0.6"
+         opacity="0.7"
+         id="line25"
+         style="opacity:1" />
+      <!-- FRONT FACE: purple cover -->
+      <polygon
+         points="378,156 378,186 280,188 280,158 "
+         fill="#9b2aaa"
+         id="polygon25"
+         style="stroke:none" />
+      <!-- Spine crease -->
+      <line
+         x1="294"
+         y1="157"
+         x2="294"
+         y2="187"
+         stroke="#6b1a78"
+         stroke-width="1.5"
+         opacity="0.8"
+         id="line26" />
+      <!-- Cover rules -->
+      <!-- TOP FACE -->
+      <path
+         id="polygon28"
+         style="fill:#bc4acb;stroke-width:1.01751"
+         d="m 399.17424,147.47264 -20.18538,8.19913 -98.91945,2.01968 16.76426,-10.55246 z" />
+      <!-- Outline -->
+      <polygon
+         points="398,148 398,178 378,186 280,188 280,158 284,148 "
+         fill="none"
+         stroke="none"
+         stroke-width="1.2"
+         stroke-linejoin="round"
+         id="polygon29" />
+    </g>
+    <g
+       id="book-top"
+       style="display:inline"
+       transform="matrix(1.1902486,0.02271439,-0.02185229,1.1450735,-111.96194,-57.642948)">
+      <!-- RIGHT SIDE: page block -->
+      <path
+         id="polygon30"
+         style="opacity:1;fill:#e8d5b0"
+         d="m 370,128 20,-7 v 29 l -20,7 z" />
+      <!-- Page lines -->
+      <path
+         id="line30"
+         style="opacity:1;stroke:#c4a97a;stroke-width:0.6"
+         d="m 371,130 18,-6" />
+      <path
+         id="line31"
+         style="opacity:1;stroke:#c4a97a;stroke-width:0.6"
+         d="m 371,133 18,-6" />
+      <path
+         id="line32"
+         style="opacity:1;stroke:#c4a97a;stroke-width:0.6"
+         d="m 371,136 18,-6" />
+      <path
+         id="line33"
+         style="opacity:1;stroke:#c4a97a;stroke-width:0.6"
+         d="m 371,139 18,-6" />
+      <path
+         id="line34"
+         style="opacity:1;stroke:#c4a97a;stroke-width:0.6"
+         d="m 371,142 18,-6" />
+      <path
+         id="line35"
+         style="opacity:1;stroke:#c4a97a;stroke-width:0.6"
+         d="m 371,145 18,-6" />
+      <path
+         id="line36"
+         style="opacity:1;stroke:#c4a97a;stroke-width:0.6"
+         d="m 371,148 18,-6" />
+      <path
+         id="line37"
+         style="opacity:1;stroke:#c4a97a;stroke-width:0.6"
+         d="m 371,151 18,-6" />
+      <path
+         id="line37-4"
+         style="display:inline;opacity:1;stroke:#c4a97a;stroke-width:0.6"
+         d="m 371.22882,153.77586 18,-6" />
+      <!-- FRONT FACE: light/white cover -->
+      <path
+         id="polygon37"
+         style="fill:#447fa3"
+         transform="matrix(1.0034201,-6.7842613e-5,-6.2790528e-5,1.0000012,-1.0134191,-0.1079624)"
+         d="m 288,130 82,-2 v 29 l -82,2 z" />
+      <!-- Spine crease -->
+      <path
+         id="line38"
+         style="opacity:0.8;fill:#16a891;stroke:#40ae9d;stroke-width:1.5"
+         d="m 300,129 v 29" />
+      <!-- Cover rules -->
+      <!-- TOP FACE — this is where the robot sits, clear perspective -->
+      <path
+         id="polygon40"
+         style="fill:#448ca3;fill-opacity:1;stroke:none;stroke-width:0;stroke-dasharray:none"
+         d="m 372.13775,127.33739 -84.39676,1.99409 19.4256,-6.86336 83.93121,-1.68264 z" />
+      <!-- Top face page lines (visible from above) -->
+      <!-- Top edge highlight -->
+      <!-- Outline -->
+      <path
+         id="polygon44"
+         style="fill:none;stroke-width:1.2;stroke-linejoin:round"
+         d="m 288,159 v -29 l 4,-9 h 98 v 29 l -20,7 z" />
+    </g>
+    <g
+       id="robot"
+       style="display:inline"
+       transform="matrix(0.62891575,0.11356343,-0.11571765,0.64084585,90.848252,-21.795327)">
+      <!-- Legs dangling (drawn first, behind body) -->
+      <!-- Left leg upper -->
+      <line
+         x1="314.54788"
+         y1="120.77261"
+         x2="308.50574"
+         y2="127.71332"
+         stroke="rgba(255,255,255,0.75)"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="line45"
+         style="stroke:url(#linearGradient86);stroke-width:0.659568;stroke-dasharray:none" />
+      <!-- Left leg lower (dangling off book front) -->
+      <line
+         x1="308.46674"
+         y1="127.79548"
+         x2="308.62659"
+         y2="142.20796"
+         stroke="rgba(255,255,255,0.65)"
+         stroke-width="1.8"
+         stroke-linecap="round"
+         id="line46"
+         style="stroke:url(#linearGradient85);stroke-width:0.771215;stroke-dasharray:none" />
+      <!-- Left foot -->
+      <rect
+         x="297.14688"
+         y="142.89757"
+         width="11.199665"
+         height="6.9326148"
+         rx="2.0999372"
+         fill="none"
+         stroke="rgba(255,255,255,0.65)"
+         stroke-width="1.4"
+         id="rect46"
+         style="fill:url(#linearGradient15);stroke:url(#linearGradient75);stroke-width:0.623069;stroke-dasharray:none" />
+      <line
+         x1="332.02362"
+         y1="120.92764"
+         x2="329.10471"
+         y2="124.83581"
+         stroke="rgba(255,255,255,0.75)"
+         stroke-width="2"
+         stroke-linecap="round"
+         id="line45-1"
+         style="display:inline;stroke:url(#linearGradient86-9);stroke-width:0.528638;stroke-dasharray:none" />
+      <line
+         x1="329.26678"
+         y1="124.75529"
+         x2="329.36621"
+         y2="138.87825"
+         stroke="rgba(255,255,255,0.65)"
+         stroke-width="1.8"
+         stroke-linecap="round"
+         id="line46-7"
+         style="display:inline;stroke:url(#linearGradient85-8);stroke-width:0.764253;stroke-dasharray:none" />
+      <rect
+         x="318.81799"
+         y="140.14769"
+         width="11.199665"
+         height="6.9326148"
+         rx="2.0999372"
+         fill="none"
+         stroke="rgba(255,255,255,0.65)"
+         stroke-width="1.4"
+         id="rect46-1"
+         style="display:inline;fill:url(#linearGradient16);stroke:url(#linearGradient10);stroke-width:0.623069;stroke-dasharray:none" />
+      <!-- Right leg upper -->
+      <!-- Right leg lower -->
+      <!-- Right foot -->
+      <!-- Body -->
+      <rect
+         x="307.97556"
+         y="81.160187"
+         width="42.101856"
+         height="36.864246"
+         rx="3.8274415"
+         fill="none"
+         stroke="rgba(255,255,255,0.88)"
+         stroke-width="1.8"
+         id="rect49"
+         style="fill:url(#linearGradient13);stroke:url(#linearGradient73);stroke-width:0.751254;stroke-dasharray:none" />
+      <!-- Inner chest panel -->
+      <rect
+         x="314.72266"
+         y="86.226357"
+         width="28"
+         height="22"
+         rx="2"
+         fill="none"
+         stroke="#1fd1b6"
+         stroke-width="1.4"
+         id="rect50" />
+      <!-- Chest lights -->
+      <circle
+         cx="322.52493"
+         cy="93.483162"
+         r="2.5"
+         fill="#1fd1b6"
+         opacity="0.9"
+         id="circle50" />
+      <circle
+         cx="334.27356"
+         cy="93.577805"
+         r="2.5"
+         fill="#1fd1b6"
+         opacity="0.5"
+         id="circle51" />
+      <!-- Chest label lines -->
+      <line
+         x1="318.49106"
+         y1="101.97202"
+         x2="338.63974"
+         y2="102.22389"
+         stroke="rgba(255,255,255,0.35)"
+         stroke-width="0.9"
+         id="line51"
+         style="opacity:0.6;stroke:url(#linearGradient81);stroke-width:0.680296;stroke-dasharray:none" />
+      <line
+         x1="318.53271"
+         y1="104.92033"
+         x2="334.06668"
+         y2="104.98833"
+         stroke="rgba(255,255,255,0.25)"
+         stroke-width="0.9"
+         id="line52"
+         style="opacity:0.6;stroke:url(#linearGradient82);stroke-width:0.579988;stroke-dasharray:none" />
+      <!-- Head -->
+      <rect
+         x="312"
+         y="46"
+         width="36"
+         height="28"
+         rx="5"
+         fill="none"
+         stroke="rgba(255,255,255,0.88)"
+         stroke-width="1.8"
+         id="rect52"
+         style="stroke:url(#linearGradient76);stroke-width:0.8;stroke-dasharray:none" />
+      <!-- Eyes -->
+      <rect
+         x="318"
+         y="54"
+         width="9"
+         height="7"
+         rx="2"
+         fill="#1fd1b6"
+         opacity="0.9"
+         id="rect53" />
+      <rect
+         x="333"
+         y="54"
+         width="9"
+         height="7"
+         rx="2"
+         fill="#1fd1b6"
+         opacity="0.9"
+         id="rect54" />
+      <!-- Eye shine -->
+      <rect
+         x="319"
+         y="55"
+         width="3"
+         height="2.5"
+         rx="1"
+         fill="#ffffff"
+         opacity="0.6"
+         id="rect55" />
+      <rect
+         x="334"
+         y="55"
+         width="3"
+         height="2.5"
+         rx="1"
+         fill="#ffffff"
+         opacity="0.6"
+         id="rect56" />
+      <!-- Mouth -->
+      <line
+         x1="320"
+         y1="68"
+         x2="340"
+         y2="68"
+         stroke="rgba(255,255,255,0.6)"
+         stroke-width="1.4"
+         stroke-linecap="round"
+         id="line56"
+         style="opacity:0.6;stroke:url(#linearGradient80);stroke-width:0.8;stroke-dasharray:none" />
+      <!-- Neck -->
+      <!-- Antenna -->
+      <line
+         x1="330"
+         y1="46"
+         x2="330"
+         y2="35"
+         stroke="rgba(255,255,255,0.7)"
+         stroke-width="1.4"
+         id="line57"
+         style="stroke:url(#linearGradient87);stroke-width:0.8;stroke-dasharray:none" />
+      <circle
+         cx="330"
+         cy="32"
+         r="3.2"
+         fill="none"
+         stroke="#1fd1b6"
+         stroke-width="1.4"
+         id="circle57" />
+      <circle
+         cx="330"
+         cy="32"
+         r="1.3"
+         fill="#1fd1b6"
+         id="circle58" />
+      <!-- Arms -->
+      <line
+         x1="306.04242"
+         y1="80.672531"
+         x2="292.38721"
+         y2="64.858025"
+         stroke="rgba(255,255,255,0.75)"
+         stroke-width="1.8"
+         stroke-linecap="round"
+         id="line58"
+         style="stroke:url(#linearGradient79);stroke-width:0.672632;stroke-dasharray:none" />
+      <line
+         x1="292.40088"
+         y1="64.827293"
+         x2="285.6951"
+         y2="49.357788"
+         stroke="rgba(255,255,255,0.75)"
+         stroke-width="1.8"
+         stroke-linecap="round"
+         id="line58-1"
+         style="display:inline;stroke:url(#linearGradient79-2);stroke-width:0.610486;stroke-dasharray:none" />
+      <line
+         x1="352.41095"
+         y1="84.195061"
+         x2="363.10831"
+         y2="91.554565"
+         stroke="rgba(255,255,255,0.75)"
+         stroke-width="1.8"
+         stroke-linecap="round"
+         id="line59"
+         style="stroke:url(#linearGradient77);stroke-width:0.62004;stroke-dasharray:none" />
+      <line
+         x1="275.66879"
+         y1="42.779625"
+         x2="279.47604"
+         y2="44.286362"
+         stroke="rgba(255,255,255,0.75)"
+         stroke-width="1.8"
+         stroke-linecap="round"
+         id="line59-9"
+         style="display:inline;stroke:url(#linearGradient77-8);stroke-width:0.852555;stroke-dasharray:none" />
+      <line
+         x1="278.56229"
+         y1="39.328358"
+         x2="280.77383"
+         y2="42.130054"
+         stroke="rgba(255,255,255,0.75)"
+         stroke-width="1.8"
+         stroke-linecap="round"
+         id="line59-9-3"
+         style="display:inline;stroke:url(#linearGradient77-8-4);stroke-width:0.763387;stroke-dasharray:none" />
+      <line
+         x1="288.16266"
+         y1="36.906326"
+         x2="287.82062"
+         y2="40.921059"
+         stroke="rgba(255,255,255,0.75)"
+         stroke-width="1.8"
+         stroke-linecap="round"
+         id="line59-9-8"
+         style="display:inline;stroke:url(#linearGradient12);stroke-width:0.852555;stroke-dasharray:none" />
+      <line
+         x1="292.35742"
+         y1="38.659149"
+         x2="289.91943"
+         y2="41.900444"
+         stroke="rgba(255,255,255,0.75)"
+         stroke-width="1.8"
+         stroke-linecap="round"
+         id="line59-9-3-6"
+         style="display:inline;stroke:url(#linearGradient77-8-4-42);stroke-width:0.852555;stroke-dasharray:none" />
+      <line
+         x1="283.25613"
+         y1="37.728699"
+         x2="284.16879"
+         y2="41.656609"
+         stroke="rgba(255,255,255,0.75)"
+         stroke-width="1.8"
+         stroke-linecap="round"
+         id="line59-9-3-8"
+         style="display:inline;stroke:url(#linearGradient77-8-4-4);stroke-width:0.852555;stroke-dasharray:none" />
+      <line
+         x1="363.20731"
+         y1="91.565201"
+         x2="371.53513"
+         y2="105.30048"
+         stroke="rgba(255,255,255,0.75)"
+         stroke-width="1.8"
+         stroke-linecap="round"
+         id="line59-1"
+         style="display:inline;stroke:url(#linearGradient77-5);stroke-width:0.541958;stroke-dasharray:none" />
+      <rect
+         x="355.54272"
+         y="160.35446"
+         width="11.136872"
+         height="5.9469457"
+         rx="3.0373287"
+         fill="none"
+         stroke="rgba(255,255,255,0.7)"
+         stroke-width="1.4"
+         id="rect59"
+         style="fill:url(#linearGradient14);stroke:url(#linearGradient78);stroke-width:0.654337;stroke-dasharray:none"
+         transform="matrix(0.98836615,-0.15209323,0.1262185,0.99200246,0,0)" />
+      <rect
+         x="271.61621"
+         y="84.472046"
+         width="11.136872"
+         height="5.9469457"
+         rx="3.0373287"
+         fill="none"
+         stroke="rgba(255,255,255,0.7)"
+         stroke-width="1.4"
+         id="rect59-6"
+         style="display:inline;stroke:url(#linearGradient11);stroke-width:0.654337;stroke-dasharray:none"
+         transform="matrix(0.98836615,-0.15209323,0.1262185,0.99200246,0,0)" />
+      <!-- Circuit accents -->
+      <line
+         x1="276.96613"
+         y1="86.985291"
+         x2="267.10815"
+         y2="88.633286"
+         stroke="#1fd1b6"
+         stroke-width="1"
+         opacity="0.5"
+         id="line60" />
+      <line
+         x1="267.84735"
+         y1="89.11824"
+         x2="266.26465"
+         y2="79.239594"
+         stroke="#1fd1b6"
+         stroke-width="1"
+         opacity="0.5"
+         id="line61" />
+      <circle
+         cx="266.16373"
+         cy="78.764961"
+         r="2"
+         fill="none"
+         stroke="#1fd1b6"
+         stroke-width="1"
+         opacity="0.5"
+         id="circle61" />
+      <line
+         x1="384.07126"
+         y1="15.240211"
+         x2="393.91696"
+         y2="13.522836"
+         stroke="#1fd1b6"
+         stroke-width="1"
+         opacity="0.5"
+         id="line62" />
+      <line
+         x1="395.10776"
+         y1="22.973623"
+         x2="393.31827"
+         y2="13.129041"
+         stroke="#1fd1b6"
+         stroke-width="1"
+         opacity="0.5"
+         id="line63" />
+      <circle
+         cx="395.17569"
+         cy="23.466204"
+         r="2"
+         fill="none"
+         stroke="#1fd1b6"
+         stroke-width="1"
+         opacity="0.5"
+         id="circle63" />
+    </g>
+    <circle
+       cx="120.96729"
+       cy="53.254372"
+       r="2.5"
+       fill="#1fd1b6"
+       opacity="0.5"
+       id="circle64" />
+    <circle
+       cx="105.96729"
+       cy="73.254372"
+       r="1.5"
+       fill="rgba(255,255,255,0.4)"
+       id="circle65" />
+    <circle
+       cx="130.96729"
+       cy="93.254372"
+       r="2"
+       fill="#1fd1b6"
+       opacity="0.35"
+       id="circle66" />
+    <circle
+       cx="430"
+       cy="55"
+       r="1.8"
+       fill="rgba(255,255,255,0.3)"
+       id="circle67" />
+    <circle
+       cx="438.26846"
+       cy="106.71743"
+       r="2.5"
+       fill="#1fd1b6"
+       opacity="0.25"
+       id="circle68" />
+    <line
+       x1="344.89566"
+       y1="77.461708"
+       x2="525.21948"
+       y2="77.461708"
+       stroke="#1fd1b6"
+       stroke-width="1.59242"
+       opacity="0.5"
+       id="line68" />
+    <line
+       x1="359.89566"
+       y1="82.87648"
+       x2="522.73083"
+       y2="82.87648"
+       stroke="#1fd1b6"
+       stroke-width="1.05972"
+       opacity="0.3"
+       id="line69" />
+    <line
+       x1="344.89566"
+       y1="87.87648"
+       x2="523.97516"
+       y2="87.87648"
+       stroke="#1fd1b6"
+       stroke-width="1.58692"
+       opacity="0.5"
+       id="line70" />
+  </g>
+</svg>
