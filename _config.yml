@@ -7,7 +7,7 @@ lang: it
 
 hero:
   role: ""
-  name: "Pensieri <br> sull'intelligenza artificiale  <br> e i libri che cambiano il modo di pensare."
+  name: "Pensieri <br> sull'intelligenza artificiale  <br> e tutto ciò che cambia il modo di pensare."
   tagline: "Quello che cattura la mia attenzione, scritto come posso."
 
 author:
@@ -20,10 +20,8 @@ permalink: /:categories/:title/
 navigation:
   - name: Home
     url: /
-  - name: AI
-    url: /ai
-  - name: Libri
-    url: /books
+  - name: Posts
+    url: /posts
   - name: About
     url: /about
 

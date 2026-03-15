@@ -235,8 +235,9 @@ nav {
   font-family: 'Lora', serif;
 }
 
+
 .tag-ai   { background: rgba(120,9,135,0.08); color: var(--purple); border: 1px solid rgba(120,9,135,0.2); }
-.tag-book { background: rgba(31,209,182,0.08); color: var(--teal-dk); border: 1px solid rgba(31,209,182,0.3); }
+.tag-lang { background: rgba(31,209,182,0.08); color: var(--teal-dk); border: 1px solid rgba(31,209,182,0.3); }
 
 .about-link {
   font-size: 0.8rem;
@@ -328,8 +329,17 @@ nav {
   position: relative; top: -1px;
 }
 
+.category-item {
+  margin-right: 1rem;  /* aumenta per più spazio */
+}
+
+
+.category-item:last-child {
+  margin-right: 0;
+}
+
 .dot-ai   { background: var(--purple); }
-.dot-book { background: var(--teal); }
+.dot-lang { background: var(--teal); }
 
 .post-title {
   font-family: 'Playfair Display', serif;
@@ -340,6 +350,14 @@ nav {
   margin-bottom: 0.4rem;
   transition: color 0.2s;
   text-decoration: none;
+}
+
+.post-subtitle {
+  margin: 0.2rem 0 0.6rem;
+  font-style: italic;
+  font-size: 1.2rem;        /* o 1.1rem, regola a piacere */
+  font-weight: normal;
+  color: var(--text-muted);
 }
 
 .post-title a {
@@ -353,7 +371,6 @@ nav {
   font-size: 0.85rem;
   color: var(--ink-soft);
   line-height: 1.6;
-  font-style: italic;
 }
 
 .post-date {

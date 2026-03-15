@@ -1,28 +1,23 @@
 ---
 layout: page
-title: "Libri"
+title: "Posts"
 ---
-
-<h1>Posts</h1>
 
 <div class="post-list">
   {% for post in site.posts %}
-    {% if post.category == 'book' %}
   <article class="post-item">
     <div>
-      <p class="post-category">
-        <span class="post-category-dot dot-book"></span>
-        Libri
-      </p>
-      <h3 class="post-title">
+      <h2 class="post-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h3>
+      </h2>
+      {% if post.subtitle %}
+        <p class="post-subtitle" style='font-size: 1.2rem'>{{ post.subtitle }}</p>
+      {% endif %}
       {% if post.excerpt %}
-      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
+      <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 48 }}</p>
       {% endif %}
     </div>
     <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
   </article>
-    {% endif %}
   {% endfor %}
 </div>

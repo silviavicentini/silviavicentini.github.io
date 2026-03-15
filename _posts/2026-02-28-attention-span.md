@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Attenzione e AI generativa
+title: Il costo nascosto dell'AI generativa
+subtitle: Attenzione e apprendimento nell'epoca della GenAI
 category: ai
 selected: true
 ---

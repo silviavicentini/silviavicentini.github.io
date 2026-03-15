@@ -26,12 +26,19 @@ layout: default
       <article class="post-item featured">
         <div>
           <p class="post-category">
-            <span class="post-category-dot dot-{{ post.category }}"></span>
-            {{ post.category | capitalize }}
+            {% for category in post.categories %}
+            <span class="category-item">
+              <span class="post-category-dot dot-{{ category }}"></span>
+              {{ category | capitalize }}
+            </span>
+            {% endfor %}
           </p>
           <h3 class="post-title">
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </h3>
+          {% if post.subtitle %}
+            <p class="post-subtitle">{{ post.subtitle }}</p>
+          {% endif %}
           {% if post.excerpt %}
           <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 28 }}</p>
           {% endif %}
@@ -52,12 +59,19 @@ layout: default
     {% for post in featured_posts %}
     <article class="in-evidenza-item">
       <p class="post-category">
-        <span class="post-category-dot dot-{{ post.category }}"></span>
-        {{ post.category | capitalize }}
+      {% for category in post.categories %}
+        <span class="category-item">
+          <span class="post-category-dot dot-{{ category }}"></span>
+          {{ category | capitalize }}
+        </span>
+      {% endfor %}
       </p>
       <h3 class="in-evidenza-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        
+
       </h3>
+      {{ post.subtitle}}
     </article>
     {% endfor %}
   </aside>
