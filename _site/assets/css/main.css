@@ -19,6 +19,14 @@
   --rule:      #e0dbd2;
 }
 
+.text-center {
+  text-align: center; 
+}
+
+.post-body centerleft{
+  margin: 1.8rem 0;
+}
+
 html { font-size: 16px; }
 
 body {
@@ -358,8 +366,9 @@ nav {
 }
 
 .centered-image {
-  text-align: center;
   display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .post-item {
@@ -950,10 +959,11 @@ footer {
 }
 
 .footer-note {
-  font-size: 0.78rem;
+  font-size: 1.08rem;
   color: var(--ink-muted);
-  font-style: italic;
-}
+  align-items: center;
+  display: flex;
+  gap: 2.0rem;}
 
 .footer-teal {
   width: 30px; height: 3px;
