@@ -8,12 +8,12 @@ layout: default
     <div class="post-banner-meta">
       <a class="post-back" href="{{ '/' | relative_url }}">← Home</a>
       <span class="post-banner-sep">/</span>
-      <a class="post-back" href="{{ '/' | append: page.category | relative_url }}">
-        {{ page.category | capitalize }}
+      <a class="post-back" href="{{ '/posts' | relative_url }}">
+        POSTS
       </a>
     </div>
-    <span class="post-category-pill pill-{{ page.category }}">{{ page.category | capitalize }}</span>
     <h1 class="post-banner-title">{{ page.title }}</h1>
+    <h2 class="post-banner-subtitle">{{ page.subtitle }}</h2>
     <div class="post-banner-byline">
       <span class="post-banner-author">{{ page.author | default: site.author.name }}</span>
       <span class="post-banner-dot">·</span>

@@ -476,6 +476,15 @@ nav {
   margin-bottom: 1rem;
 }
 
+.post-banner-subtitle {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  color: #fff;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  margin-bottom: 1rem;
+}
+
 .post-banner-byline {
   display: flex;
   align-items: center;
@@ -733,7 +742,6 @@ nav {
   letter-spacing: -0.01em;
   margin-bottom: 1rem;
 }
-
 
 /* ── PAGE BODY ──────────────────────────────────── */
 

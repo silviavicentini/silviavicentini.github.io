@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>
+    La gerarchia di Chomsky — The Attention Span
+  </title>
+  <meta name="description" content="AI, pensiero scientifico e creativo"/>
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>La gerarchia di Chomsky | The Attention Span</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="La gerarchia di Chomsky" />
+<meta name="author" content="Silvia Vicentini" />
+<meta property="og:locale" content="it" />
+<meta name="description" content="Il legame tra linguistica e informatica è molto più profondo di quanto si possa pensare: è proprio dallo studio della struttura dei linguaggi che nascono alcune delle idee fondamentali dell’informatica moderna. La formalizzazione del linguaggio ha avuto inizio negli anni ‘50 del secolo scorso, con lo scopo di determinare le regolarità sintattiche dei linguaggi naturali. Questa branca ha rivoluzionato non solo la linguistica, ma anche la matematica e soprattutto l’informatica, rappresentando la spina dorsale nella strutturazione dei linguaggi di programmazione e nella comunicazione tra macchine." />
+<meta property="og:description" content="Il legame tra linguistica e informatica è molto più profondo di quanto si possa pensare: è proprio dallo studio della struttura dei linguaggi che nascono alcune delle idee fondamentali dell’informatica moderna. La formalizzazione del linguaggio ha avuto inizio negli anni ‘50 del secolo scorso, con lo scopo di determinare le regolarità sintattiche dei linguaggi naturali. Questa branca ha rivoluzionato non solo la linguistica, ma anche la matematica e soprattutto l’informatica, rappresentando la spina dorsale nella strutturazione dei linguaggi di programmazione e nella comunicazione tra macchine." />
+<link rel="canonical" href="http://localhost:4000/posts/chomsky/" />
+<meta property="og:url" content="http://localhost:4000/posts/chomsky/" />
+<meta property="og:site_name" content="The Attention Span" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-03-25T00:00:00+01:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="La gerarchia di Chomsky" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Silvia Vicentini"},"dateModified":"2026-03-25T00:00:00+01:00","datePublished":"2026-03-25T00:00:00+01:00","description":"Il legame tra linguistica e informatica è molto più profondo di quanto si possa pensare: è proprio dallo studio della struttura dei linguaggi che nascono alcune delle idee fondamentali dell’informatica moderna. La formalizzazione del linguaggio ha avuto inizio negli anni ‘50 del secolo scorso, con lo scopo di determinare le regolarità sintattiche dei linguaggi naturali. Questa branca ha rivoluzionato non solo la linguistica, ma anche la matematica e soprattutto l’informatica, rappresentando la spina dorsale nella strutturazione dei linguaggi di programmazione e nella comunicazione tra macchine.","headline":"La gerarchia di Chomsky","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/chomsky/"},"url":"http://localhost:4000/posts/chomsky/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/assets/css/main.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- MathJax -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="/">The Attention Span</a>
+    <ul class="nav-links">
+      
+      <li>
+        <a href="/"
+           >
+          Home
+        </a>
+      </li>
+      
+      <li>
+        <a href="/posts"
+           >
+          Posts
+        </a>
+      </li>
+      
+      <li>
+        <a href="/about"
+           >
+          About
+        </a>
+      </li>
+      
+    </ul>
+  </nav>
+
+  <!-- HEADER  -->
+<header class="post-banner">
+  <div class="post-banner-content">
+    <div class="post-banner-meta">
+      <a class="post-back" href="/">← Home</a>
+      <span class="post-banner-sep">/</span>
+      <a class="post-back" href="/posts">
+        POSTS
+      </a>
+    </div>
+    <h1 class="post-banner-title">La gerarchia di Chomsky</h1>
+    <h2 class="post-banner-subtitle">Come la linguistica dà una mano all'informatica</h2>
+    <div class="post-banner-byline">
+      <span class="post-banner-author">Silvia Vicentini</span>
+      <span class="post-banner-dot">·</span>
+      <time class="post-banner-date" datetime="2026-03-25T00:00:00+01:00">
+        March 25, 2026
+      </time>
+      <span class="post-banner-read">8 min di lettura</span>
+    </div>
+  </div>
+  <div class="post-banner-rule"></div>
+</header>
+
+<!-- BODY -->
+<div class="post-wrap">
+
+  <article class="post-body">
+    <p>Il legame tra linguistica e informatica è molto più profondo di quanto si possa pensare: è proprio dallo studio della struttura dei linguaggi che nascono alcune delle idee fondamentali dell’informatica moderna. La formalizzazione del linguaggio ha avuto inizio negli anni ‘50 del secolo scorso, con lo scopo di determinare le regolarità sintattiche dei linguaggi naturali. Questa branca ha rivoluzionato non solo la linguistica, ma anche la matematica e soprattutto l’informatica, rappresentando la spina dorsale nella strutturazione dei linguaggi di programmazione e nella comunicazione tra macchine.</p>
+
+<p>Dato un alfabeto, un linguaggio è un insieme di frasi (dette stringhe) che seguono precise regole sintattiche. Tali regole possono essere formulate in vari modi: quello più intuitivo è quello delle <strong>grammatiche</strong>, tramite cui siamo in grado di generare frasi di senso compiuto. Nel linguaggio naturale (ovvero quello che usiamo ogni giorno) questo accade per sostituzioni successive ed annidate. Per esempio, una frase semplice potrebbe essere strutturata come</p>
+
+<p class="text-center">frase = soggetto + verbo + oggetto</p>
+
+<p>e a loro volta, soggetto e oggetto potrebbero essere costituiti da</p>
+
+<p class="text-center">soggetto = articolo + nome<br />
+oggetto = articolo + nome.</p>
+
+<p>Potremmo rappresentare formalmente queste sostituzioni come</p>
+
+<p class="text-center">S → NvO<br />
+Nv → anv<br />
+vO → van</p>
+
+<ul>
+  <li>S: è il simbolo iniziale (start). In questo caso è la frase;</li>
+  <li>simboli non terminali: simboli che vanno sostituiti per raggiungere la forma finale della frase (di solito indicati con lettere maiuscole). In questo caso sono N (soggetto) e O (oggetto);</li>
+  <li>simboli terminali: simboli che compaiono nella frase finale (di solito indicati con lettere minuscole). In questo caso sono a (articolo), n (nome) e v (verbo).</li>
+</ul>
+
+<p>Questo tipo di rappresentazione viene usata nell’ambito delle grammatiche formali per formulare le regole che deve seguire un linguaggio e, potenzialmente, generare <strong>tutte le possibili frasi che vi appartengono</strong>: si inizia da S e si operano sostituzioni successive secondo le regole fino a che non si ottiene una frase fatta di soli simboli terminali.</p>
+
+<p>Grazie a questa logica delle sostituzioni, si possono creare anche linguaggi “astratti” (non naturali) a partire da una grammatica. Consideriamo ad esempio un alfabeto costituito da due sole lettere a e b, e le regole grammaticali</p>
+
+<p class="text-center">(1) S → aSb<br />
+(2) S → ba</p>
+
+<p>Il linguaggio generato contiene stringe come:</p>
+<ul>
+  <li>ba (regola 2)</li>
+  <li>abab (regole 1 → 2)</li>
+  <li>aababb (1 → 1 → 2)</li>
+  <li>aaababbb (1 → 1 → 1 → 2) etc.</li>
+</ul>
+
+<p>Può essere più complesso, invece, stabilire se una stringa appartenga o meno a un linguaggio. Per farlo, ad esempio, potremmo applicare le regole in senso inverso, cercando di risalire al simbolo iniziale $S$: se ci riusciamo, la stringa appartiene al linguaggio, se invece non è possibile, la stringa non vi appartiene. Questo problema è particolarmente interessante dal punto di vista <em>algoritmico</em>: richiede infatti di comprendere quali procedure siano necessarie per riconoscere una stringa, e quali limiti queste procedure possano avere. In questo senso, studiare i linguaggi equivale anche a studiare gli algoritmi che li elaborano, se li interpretiamo come processi che trasformano e analizzano simboli secondo regole precise. È proprio in questo contesto che si inserisce il lavoro di Noam Chomsky, che ha introdotto una classificazione delle grammatiche (e, quindi, dei linguaggi) in quattro classi annidate, nota come <strong>gerarchia di Chomsky</strong>.</p>
+
+<h2 id="la-gerarchia-di-chomsky">La gerarchia di Chomsky</h2>
+<p>La gerarchia di Chomsky classifica i linguaggi formali in base alla grammatica che li genera, individuando quattro classi con grado di generalità decrescente: grammatiche di tipo 0, 1, 2, 3.</p>
+
+<p class="centered-image"><img src="/assets/images/gerarchia.svg" alt="Insiemi gerarchia" /></p>
+
+<h3 id="grammatiche-di-tipo-0">Grammatiche di tipo 0</h3>
+
+<p>È la classe più generale. Le grammatiche che la soddisfano sono caratterizzate da regole del tipo</p>
+
+<p class="text-center">α → β</p>
+
+<p>dove α e β sono costituiti da simboli terminali e/o non-terminali e possono essere di lunghezza arbitraria (anche vuoti). Questo significa che, nel costruire una stringa, è possibile sia aggiungere che rimuovere simboli. Supponiamo di voler verificare che una stringa appartenga o meno ad una  grammatica di tipo 0 applicando le regole grammaticali in senso inverso e cercando di risalire al simbolo iniziale S. Poiché in queste grammatiche è possibile sia togliere che aggiungere simboli, le sequenze di regole da applicare sono potenzialmente infinite. Di conseguenza, se una stringa <em>non</em> appartiene al linguaggio, non riusciremo a verificarlo in un tempo finito: per farlo, dovremmo escludere tutte le possibili sequenze di trasformazioni che terminano in S, ma queste sono infinite. I linguaggi che appartengono a questa classe sono detti <strong>ricorsivamente enumerabili</strong>.</p>
+
+<h3 id="grammatiche-di-tipo-1">Grammatiche di tipo 1</h3>
+<p>Questo tipo di grammatiche ha una definizione simile alla precedente, con un requisito aggiuntivo: le regole di sostituzione prevedono che le stringhe <strong>non si accorcino mai</strong>. In formule si scrive</p>
+
+<p class="text-center">α → β con ∣β∣≥∣α∣.</p>
+
+<p>Queste grammatiche sono dette <strong>context-sensitive</strong>, poiché α può essere una combinazione arbitrariamente lunga di simboli, che dovranno apparire <em>in quella forma esatta</em> perché vengano sostituiti con β.
+In questo caso, quindi, non è necessario un tempo infinito per verificare che una stringa non appartenga al linguaggio: ogni trasformazione, applicata in senso inverso, accorcia la stringa (o la mantiene di lunghezza invariata). Non c’è però una sequenza univoca di trasformazioni da applicare che conduca ad una conclusione definitiva (cioè che la stringa appartenga o non appartenga al linguaggio). Per vederlo, consideriamo ad esempio un alfabeto di una sola lettera a e la grammatica</p>
+
+<p class="text-center">(1) S → aAa<br />
+(2) aA → aaA oppure aa.</p>
+
+<p>Proviamo a verificare che la stringa $aaa$ appartiene al linguaggio. Come primo tentativo, potremmo applicare la regola (2) alle ultime due lettere della stringa, ottenendo
+ aaa → aaA → aA.
+Vediamo però che questa opzione non permette di risalire ad S (e, quindi, verificare che la stringa appartiene al linguaggio), perché non ci sono trasformazioni nella grammatica che possiamo applicare ad aA. È necessario quindi tornare sui nostri passi ed applicare le regole in modo diverso: ad esempio, possiamo applicare la regola (2) alle prime due lettere, e poi la regola (1)
+aaa → aAa → S
+verificando così la nostra ipotesi. In questo esempio la struttura della grammatica e della stringa è particolarmente semplice, ma la complessità cresce velocemente con la lunghezza della stringa e il numero di regole grammaticali, poiché aumentano le combinazioni di trasformazioni da verificare.</p>
+
+<p>Le grammatiche viste fino ad ora hanno soprattutto importanza in informatica teorica, in particolare in relazione con le Macchine di Turing e il problema della decidibilità, che verranno trattate in un articolo successivo. Le grammatiche di tipo 2 e 3 sono invece più vicine alla nostra esperienza quotidiana.</p>
+
+<h3 id="grammatiche-di-tipo-2">Grammatiche di tipo 2</h3>
+
+<p>Le grammatiche di tipo 2 rappresentano una classe fondamentale nella teoria dei linguaggi formali, poiché vi appartengono le operazioni aritmetiche, i linguaggi di programmazione e, in una certa misura, il linguaggio naturale (ovvero, quello che usiamo quotidianamente per comunicare).
+Le sue regole grammaticali sono caratterizzate dalla presenza di <strong>singoli</strong> simboli non terminali che possono essere <strong>sostituiti da stringhe terminali e non terminali</strong>. In formule</p>
+
+<p class="text-center">A → $\gamma$.</p>
+
+<p>Questa grammatica viene definita <strong>context-free</strong>: non è necessario sapere quali simboli appaiano assieme ad A per applicare la regola A → $\gamma$. Grazie a questa struttura, possiamo associare al simbolo di sostituzione → il significato di <em>costituito da</em> e utilizzare una <strong>rappresentazione ad albero</strong> nell’analisi delle stringhe: procedendo dalla radice S l’analisi si dirama verso il basso aumentando progressivamente la granularità, finché ogni ramo non termina in una <em>foglia</em>: questo processo trasforma una sequenza di caratteri in una struttura annidata, dove ogni sottogruppo di simboli ha un’identità autonoma e definita.</p>
+
+<p>Consideriamo ad esempio la stringa “3 + 5 = 8”. Questa può essere ricondotta a una struttura del tipo</p>
+
+<p class="text-center">Operazione $\overset{costituita\,da}{\rightarrow}$ Risultato &amp; Espressione<br />
+Espressione $\overset{costituita\,da}{\rightarrow}$ Addendo &amp; Somma &amp; Addendo</p>
+
+<p class="centered-image"><img src="/assets/images/albero_sintattico.svg" alt="Albero sintattico operazioni" /></p>
+
+<p>Lo stesso avviene nel linguaggio naturale: la frase “Il gatto beve il latte” può essere generata come</p>
+
+<p class="text-center">Frase $\overset{costituita\,da}{\rightarrow}$ Sintagma Nominale &amp; SintagmaVerbale<br />
+Sintagma Nominale $\overset{costituita\,da}{\rightarrow}$  Articolo &amp; Nome<br />
+Sintagma verbale $\overset{costituita\,da}{\rightarrow}$  Verbo &amp; Oggetto<br />
+Oggetto $\overset{costituita\,da}{\rightarrow}$  Articolo &amp; Nome</p>
+
+<p class="centered-image"><img src="/assets/images/albero_frase.svg" alt="Albero sintattico frasi" /></p>
+
+<p>Dalla nostra esperienza quotidiana sappiamo però che nel linguaggio esistono dipendenze dal contesto, come ad esempio la concordanza tra soggetto e verbo. Questo suggerisce che le grammatiche context-free, pur essendo molto efficaci nel descrivere la struttura sintattica tramite rappresentazioni ad albero, non siano sempre sufficienti. Di conseguenza, il linguaggio naturale richiede formalismi più espressivi, che tengano conto del contesto, pur senza coincidere completamente con le grammatiche context-sensitive della gerarchia di Chomsky.</p>
+
+<h3 id="grammatiche-di-tipo-3">Grammatiche di tipo 3</h3>
+<p>Le grammatiche di tipo 3 sono costituite da simboli non terminali che possono essere sostituiti da simboli terminali, o al più un simbolo terminale e uno non terminale (a destra oppure a sinistra), ovvero</p>
+
+<p class="text-center">A → a, A → aB<br />
+oppure<br />
+A → a, A → Ba</p>
+
+<p>Questo rende la generazione delle stringhe (o la loro analisi) molto più semplice dei casi precedenti, visto che la sostituzione avverrà sempre da destra verso sinistra o da sinistra verso destra.</p>
+
+<p>Le grammatiche di tipo 3 sono particolarmente utili nella vita quotidiana e alla base delle <strong>espressioni regolari</strong>, ovvero sequenze di caratteri che identificano insiemi di stringhe. Le espressioni regolari vengono utilizzate ad esempio nella verifica della struttura di un indirizzo mail come NOME_UTENTE@DOMINIO.TLD oppure di una data GG/MM/AAAA.
+Consideriamo questo secondo caso a titolo di esempio. Possiamo costruire la grammatica del linguaggio come</p>
+
+<p class="text-center">S → dG<br />
+G → d / M<br />
+M → d d / A<br />
+A → dddd</p>
+
+<p>dove:</p>
+<ul>
+  <li>G è un simbolo non terminale per il giorno</li>
+  <li>M è un simbolo non terminale per il mese</li>
+  <li>A è un simbolo non terminale per l’anno</li>
+  <li>d è una cifra qualsiasi da 0 a 9 (tramite regole più strutturate è possibile vincolare la produzione di anni “validi”, ovvero che non inizino per 0 ad esempio).</li>
+</ul>
+
+<p class="centered-image"><img src="/assets/images/albero_data.svg" alt="Albero sintattico espressione regolare" /></p>
+
+<p>Come possiamo vedere, l’albero che rappresenta la stringa è molto sbilanciato: questo avviene perché i simboli non terminali appaiono sempre a destra (o sempre a sinistra) in questo tipo di grammatiche.</p>
+
+<h1 id="conclusione">Conclusione</h1>
+
+<p>La formalizzazione del linguaggio ha costituito un passaggio fondamentale nello sviluppo dell’informatica teorica. Come abbiamo visto in questo articolo, classificare le grammatiche non è solo un mero esercizio, ma un modo per comprendere la struttura dei problemi e degli algoritmi. La gerarchia di Chomsky evidenzia infatti il legame tra espressività dei linguaggi e capacità computazionali, mostrando come a grammatiche più complesse corrispondano modelli di calcolo più versatili. Questa progressione (dalle grammatiche di tipo 3, le più rigide, a quelle di tipo 0, le più flessibili) riflette i limiti e le capacità dei sistemi di calcolo. In questo senso, la gerarchia non è soltanto una classificazione, ma uno strumento per orientarsi nella teoria della computazione. Questo legame diventa ancora più significativo considerando la relazione con le macchine di Turing, che rappresentano il modello più generale di calcolo.</p>
+
+
+    
+  </article>
+
+</div>
+
+<!-- RELATED POSTS -->
+
+
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <span class="footer-logo">The Attention Span</span>
+    <span class="footer-note">Silvia Vicentini
+      
+      <a href="https://www.linkedin.com/in/silvia-vicentini-707743210/" target="_blank" aria-label="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a></span>
+  </footer>
+</body>
+</html>

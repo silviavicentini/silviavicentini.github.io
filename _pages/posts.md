@@ -4,6 +4,7 @@ title: "Posts"
 ---
 
 <div class="post-list">
+
   {% for post in site.posts %}
   <article class="post-item">
     <div>
