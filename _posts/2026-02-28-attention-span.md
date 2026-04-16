@@ -3,7 +3,7 @@ layout: post
 title: Il costo nascosto dell'AI generativa
 subtitle: Attenzione e apprendimento nell'epoca della GenAI
 category: ai
-selected: true
+selected: false
 ---
 
 L'attenzione è la capacità di concentrazione di un individuo su un fenomeno o compito predefinito, con la capacità di escludere stimoli esterni. E' quindi profondamente legata all'abilità di applicarsi a una materia, di estrarre dal contesto informazioni rilevanti e creare schemi mentali generali. Di recente, è nato un rinnovato interesse nei confronti dell'attenzione, a causa della presenza di contenuti digitali frammentati (principalmente sui social) e di strumenti di intelligenza artificiale generativa (in particolare modelli linguistici) per l'assistenza allo svolgimento di task. Mentre i primi riguardano la fruizione di contenuti (implicando quindi un comportamento passivo dell'utente), i secondi sono pervasivi della nostra quotidianità, personale e lavorativa, e ci coinvolgono attivamente in cicli di produzione di materiale di vario genere (come testo, codice o immagini). **L'intelligenza artificiale generativa permette inoltre una democratizzazione dell'apprendimento**, garantendo l'accesso a risposte di qualità, mirate e concise, e feedback a basso costo. **Ma qual è l'impatto dell'AI generativa sulle nostre capacità cognitive?** E' vero che, fornendoci risposte rapide e immediate, contribuiscono alla riduzione delle nostre capacità di concentrazione? Inoltre, come possiamo utilizzarla in un ruolo di apprendimento attivo?

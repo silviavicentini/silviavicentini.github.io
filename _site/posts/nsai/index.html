@@ -14,8 +14,8 @@
 <meta property="og:title" content="Gli LLM ragionano davvero?" />
 <meta name="author" content="Silvia Vicentini" />
 <meta property="og:locale" content="it" />
-<meta name="description" content="Gli sviluppi più recenti nell’ambito dell’intelligenza artificiale hanno mostrato risultati sorprendenti, soprattutto per quanto riguarda i modelli di linguaggio. I cosidetti LLM (Large Language Models) sanno ad esempio rispondere alle domande, tradurre, o scrivere codice. In generale, sembrano in grado di ragionare. Sorge quindi naturale chiedersi: gli LLM sono in grado di applicare il ragionamento come gli esseri umani oppure lo emulano solamente?" />
-<meta property="og:description" content="Gli sviluppi più recenti nell’ambito dell’intelligenza artificiale hanno mostrato risultati sorprendenti, soprattutto per quanto riguarda i modelli di linguaggio. I cosidetti LLM (Large Language Models) sanno ad esempio rispondere alle domande, tradurre, o scrivere codice. In generale, sembrano in grado di ragionare. Sorge quindi naturale chiedersi: gli LLM sono in grado di applicare il ragionamento come gli esseri umani oppure lo emulano solamente?" />
+<meta name="description" content="Gli sviluppi più recenti nell’ambito dell’intelligenza artificiale hanno mostrato risultati sorprendenti, soprattutto per quanto riguarda i modelli di linguaggio. I cosidetti LLM (Large Language Models) sanno ad esempio rispondere alle domande, tradurre, o scrivere codice. In generale, sembrano in grado di ragionare. Sorge quindi naturale chiedersi: gli LLM sono in grado di applicare il ragionamento oppure lo emulano solamente? Il ragionamento umano è un buon metro di confronto a questo scopo?" />
+<meta property="og:description" content="Gli sviluppi più recenti nell’ambito dell’intelligenza artificiale hanno mostrato risultati sorprendenti, soprattutto per quanto riguarda i modelli di linguaggio. I cosidetti LLM (Large Language Models) sanno ad esempio rispondere alle domande, tradurre, o scrivere codice. In generale, sembrano in grado di ragionare. Sorge quindi naturale chiedersi: gli LLM sono in grado di applicare il ragionamento oppure lo emulano solamente? Il ragionamento umano è un buon metro di confronto a questo scopo?" />
 <link rel="canonical" href="http://localhost:4000/posts/nsai/" />
 <meta property="og:url" content="http://localhost:4000/posts/nsai/" />
 <meta property="og:site_name" content="The Attention Span" />
@@ -24,7 +24,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Gli LLM ragionano davvero?" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Silvia Vicentini"},"dateModified":"2026-03-17T00:00:00+01:00","datePublished":"2026-03-17T00:00:00+01:00","description":"Gli sviluppi più recenti nell’ambito dell’intelligenza artificiale hanno mostrato risultati sorprendenti, soprattutto per quanto riguarda i modelli di linguaggio. I cosidetti LLM (Large Language Models) sanno ad esempio rispondere alle domande, tradurre, o scrivere codice. In generale, sembrano in grado di ragionare. Sorge quindi naturale chiedersi: gli LLM sono in grado di applicare il ragionamento come gli esseri umani oppure lo emulano solamente?","headline":"Gli LLM ragionano davvero?","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/nsai/"},"url":"http://localhost:4000/posts/nsai/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Silvia Vicentini"},"dateModified":"2026-03-17T00:00:00+01:00","datePublished":"2026-03-17T00:00:00+01:00","description":"Gli sviluppi più recenti nell’ambito dell’intelligenza artificiale hanno mostrato risultati sorprendenti, soprattutto per quanto riguarda i modelli di linguaggio. I cosidetti LLM (Large Language Models) sanno ad esempio rispondere alle domande, tradurre, o scrivere codice. In generale, sembrano in grado di ragionare. Sorge quindi naturale chiedersi: gli LLM sono in grado di applicare il ragionamento oppure lo emulano solamente? Il ragionamento umano è un buon metro di confronto a questo scopo?","headline":"Gli LLM ragionano davvero?","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/nsai/"},"url":"http://localhost:4000/posts/nsai/"}</script>
 <!-- End Jekyll SEO tag -->
 
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"/>
@@ -93,7 +93,7 @@
       <time class="post-banner-date" datetime="2026-03-17T00:00:00+01:00">
         March 17, 2026
       </time>
-      <span class="post-banner-read">6 min di lettura</span>
+      <span class="post-banner-read">7 min di lettura</span>
     </div>
   </div>
   <div class="post-banner-rule"></div>
@@ -103,10 +103,10 @@
 <div class="post-wrap">
 
   <article class="post-body">
-    <p>Gli sviluppi più recenti nell’ambito dell’intelligenza artificiale hanno mostrato risultati sorprendenti, soprattutto per quanto riguarda i modelli di linguaggio. I cosidetti <strong>LLM</strong> (Large Language Models) sanno ad esempio rispondere alle domande, tradurre, o scrivere codice. In generale, sembrano in grado di <em>ragionare</em>. Sorge quindi naturale chiedersi: gli LLM sono in grado di applicare il ragionamento come gli esseri umani oppure lo emulano solamente?</p>
+    <p>Gli sviluppi più recenti nell’ambito dell’intelligenza artificiale hanno mostrato risultati sorprendenti, soprattutto per quanto riguarda i modelli di linguaggio. I cosidetti <strong>LLM</strong> (Large Language Models) sanno ad esempio rispondere alle domande, tradurre, o scrivere codice. In generale, sembrano in grado di <em>ragionare</em>. Sorge quindi naturale chiedersi: gli LLM sono in grado di applicare il ragionamento oppure lo emulano solamente? Il ragionamento umano è un buon metro di confronto a questo scopo?</p>
 
 <h1 id="la-statistica-degli-llm">La statistica degli LLM</h1>
-<p>Per provare a rispondere a questa domanda, è necessario prima di tutto introdurre il funzionamento di questi modelli. Come descritto in <a href="/posts/language/">un post precedente</a>, gli LLM apprendono <em>pattern statistici</em> su una gran mole di dati per interpretare il linguaggio. Ad esempio, un modello potrebbe generare la frase “Se piove la strada è bagnata”, che è tendenzialmente vera, perché queste parole spesso appaiono (co-occorrono) in contesti simili. Il “ragionamento logico” in questo caso quindi emerge dalla statistica. L’introduzione esplicita di meccanismi deduttivi nei modelli di intelligenza artificiale è però particolarmente importante, prima di tutto come sfida nel tentare di riprodurre (e superare) le capacità umane, ma anche per fornire rigore e verificabilità alle risposte di questi sistemi. Il problema può essere analizzato distinguendo due livelli per cui l’approccio statistico degli LLM è limitato rispetto alle inferenze logiche tipiche del pensiero umano:</p>
+<p>Per provare a rispondere a questa domanda, è necessario prima di tutto introdurre il funzionamento di questi modelli. Come descritto in <a href="/posts/language/">un post precedente</a>, gli LLM apprendono <em>pattern statistici</em> su una gran mole di dati per interpretare il linguaggio. Ad esempio, un modello potrebbe generare la frase “Se piove la strada è bagnata”, che è tendenzialmente vera, perché queste parole spesso appaiono (co-occorrono) in contesti simili. Il “ragionamento logico” in questo caso quindi emerge da pattern relazionali ad altissimo ordine: il modello è in grado di imparare ad applicare una generalizzazione o una struttura inferenziale. Allo stesso modo, l’essere umano stesso può seguire delle regole senza conoscerne la loro rappresentazione astratta, ed esso stesso impara strutture generali a partire dagli esempi. La distanza quindi tra il modello e il ragionamento umano è quindi molto sottile. E’ anche vero però che la formulazione finale di una deduzione logica prescinde dal ragionamento umano che è stato in grado di generarla: è l’applicazione di regole formali codificate. L’introduzione esplicita di meccanismi deduttivi nei modelli di intelligenza artificiale è particolarmente importante, prima di tutto come sfida nel tentare di riprodurre (e superare) le capacità umane, ma anche per fornire rigore e verificabilità alle risposte di questi sistemi. Il problema può essere analizzato distinguendo due livelli per cui l’approccio statistico degli LLM è limitato rispetto alle inferenze logiche tipiche del pensiero umano:</p>
 <ul>
   <li>la conoscenza sintattico/semantica, per cui il modello produce un <strong>errore logico</strong>: gli LLM non conoscono il significato dei simboli, né come questi si combinano. Di conseguenza, non sa cosa siano “vero” o “falso”, o gli operatori logici come “e”, “non”, “se e solo se”. Di conseguenza, non sono in grado di verificare la validità di proposizioni come: <em>se A è vero e B è falso, allora “A e B” è falso</em>.</li>
   <li>la capacità di conoscere il valore di verità degli elementi della proposizione. L’LLM produce quindi un <strong>errore epistemico</strong>: poiché il suo ragionamento emerge in modo statistico, anche se esso producesse la proposizione “3 è un numero”, questa non sarebbe interpretata dalla rete, ma sarebbe semplicemente una sequenza di parole molto probabile. Al contrario, per un essere umano questa proposizione sarebbe vera per stessa definizione di “3”.</li>
@@ -195,6 +195,14 @@ Questo risultato viene poi passato a un motore logico che usa la regola generale
   <div class="post-related-inner">
     <h2 class="post-related-title">Contenuti simili <em></em></h2>
     <div class="post-related-grid">
+      
+      <a class="post-related-item" href="/posts/llm-genai/">
+        <span class="post-related-date">Mar 28, 2026</span>
+        <h3 class="post-related-item-title">Gli LLM generano linguaggio?</h3>
+        
+        <p class="post-related-excerpt">Quando interagiamo con un modello linguistico abbiamo l’impressione che stia scrivendo, o addirittura pensando. In effetti, i modelli...</p>
+        
+      </a>
       
       <a class="post-related-item" href="/posts/attention-span/">
         <span class="post-related-date">Feb 28, 2026</span>
