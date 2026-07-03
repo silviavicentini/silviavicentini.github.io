@@ -79,14 +79,48 @@ nav {
   transition: color 0.2s;
 }
 
-.nav-links a:hover  { color: var(--purple); }
-.nav-links a.active {
-  color: var(--purple);
-  border-bottom: 1.5px solid var(--teal);
-  padding-bottom: 2px;
+.search-bar-container {
+  margin-bottom: 1.5rem;
 }
 
+.search-label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  margin-bottom: 0.5rem;
+}
 
+.post-search {
+  width: 100%;
+  max-width: 660px;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  font-size: 1rem;
+  color: var(--ink);
+  background: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.post-search:focus {
+  outline: none;
+  border-color: var(--purple);
+  box-shadow: 0 0 0 4px rgba(120, 9, 135, 0.05);
+}
+
+.search-results {
+  margin-bottom: 2rem;
+}
+
+.search-status {
+  margin-bottom: 1rem;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+.search-results-list .post-item {
+  margin-bottom: 1.4rem;
+}
 /* ── HOME BANNER ────────────────────────────────── */
 
 .banner {
@@ -687,6 +721,49 @@ nav {
 }
 
 .post-body th,
+
+/* Pagination alignment: keep prev, page links and next aligned to the left */
+.pagination {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1.25rem;
+  flex-wrap: wrap;
+}
+
+.pagination .prev,
+.pagination .next,
+.pagination .page {
+  display: inline-block;
+  padding: 0.35rem 0.6rem;
+  border-radius: 3px;
+  text-decoration: none;
+  color: var(--ink-muted);
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.pagination .page.current {
+  background: var(--purple);
+  color: #fff;
+  border-color: var(--purple);
+}
+
+.pagination .prev:hover,
+.pagination .next:hover,
+.pagination .page:hover { color: var(--purple); border-color: var(--rule); }
+
+/* Remove dividing lines above/below the pagination bar */
+.post-list .post-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0.8rem; /* keep a little space before pagination */
+}
+
+.pagination {
+  border-top: none;
+  border-bottom: none;
+}
 .page-body th {
   background: var(--beige-mid);
   font-weight: 700;

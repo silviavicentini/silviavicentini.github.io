@@ -24,6 +24,8 @@ navigation:
     url: /posts
   - name: About
     url: /about
+  - name: Subscribe
+    url: /subscribe
 
 # Plugins
 plugins:
@@ -49,3 +51,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - context
+
+# Pagination
+# paginate: 5
+# paginate_path: "/posts/page:num/"  # handled by custom script
