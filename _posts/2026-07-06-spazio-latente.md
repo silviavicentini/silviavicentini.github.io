@@ -14,9 +14,7 @@ Dal punto di vista matematico, possiamo codificare questo processo tramite funzi
 
 - i vettori sono liste di numeri reali, che tipicamente rappresentano input e output;
 - le matrici rappresentano trasformazioni su questi vettori, che possono modificarne la dimensione e il contenuto;
-- le funzioni tipicamente agiscono su ogni elemento del vettore trasformandone il valore.
-
-[^1]
+- le funzioni tipicamente agiscono su ogni elemento del vettore trasformandone il valore.[^1]
 
 [^1]: Vettori e matrici sono in realtà casi particolari di un oggetto più generale, il **tensore**: un vettore è un tensore a una dimensione, una matrice un tensore a due dimensioni, e così via per dimensioni superiori. I tensori sono più difficili da visualizzare, ma la logica delle trasformazioni che li coinvolgono resta la stessa.
 
