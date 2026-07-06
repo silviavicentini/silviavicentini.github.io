@@ -3,7 +3,7 @@ layout: post
 title: "Dentro le reti neurali"
 subtitle: "Dalla rappresentazione vettoriale allo spazio latente"
 category: ai
-selected: true
+selected: false
 ---
 
 Per chi si avvicina all'intelligenza artificiale, le reti neurali possono apparire inizialmente complesse, ma il loro funzionamento di base è piuttosto semplice: ricevono dati in input, li trasformano attraverso una serie di passaggi successivi, e producono un output. Durante l'addestramento, queste trasformazioni vengono **ottimizzate** per avvicinare il risultato ottenuto a quello atteso, in modo da poter prevedere l'output anche su esempi nuovi.
