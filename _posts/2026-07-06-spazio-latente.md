@@ -16,6 +16,11 @@ Dal punto di vista matematico, possiamo codificare questo processo tramite funzi
 - le matrici rappresentano trasformazioni su questi vettori, che possono modificarne la dimensione e il contenuto;
 - le funzioni tipicamente agiscono su ogni elemento del vettore trasformandone il valore.
 
+[^1]
+
+[^1]: Vettori e matrici sono in realtà casi particolari di un oggetto più generale, il **tensore**: un vettore è un tensore a una dimensione, una matrice un tensore a due dimensioni, e così via per dimensioni superiori. I tensori sono più difficili da visualizzare, ma la logica delle trasformazioni che li coinvolgono resta la stessa.
+
+
 Queste strutture mescolano, comprimono e modificano l'input, trasformandolo progressivamente nell'output. Tali operazioni vengono alternate in sequenza in cosiddetti **layer** successivi, ognuno dei quali produce degli output intermedi. Lo spazio a cui appartengono tali vettori è uno **spazio vettoriale** detto **spazio latente**: un luogo interno al calcolo in cui la rete organizza informazioni che non corrispondono direttamente all'input o all'output, ma che sono essenziali per il processo di elaborazione.
 
 ![Alternanza dei layer in una rete neurale]({{ "/assets/images/alternanza_layer_illustrativa_v2.svg" | relative_url }})
