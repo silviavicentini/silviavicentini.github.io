@@ -51,10 +51,33 @@
   <footer>
     <span class="footer-logo">{{ site.title }}</span>
     <span class="footer-note">{{ site.author.name }}
-      
-      <a href="https://www.linkedin.com/in/silvia-vicentini-707743210/" target="_blank" aria-label="LinkedIn">
-        <i class="fab fa-linkedin"></i>
-      </a></span>
+      <span class="footer-contact">
+        <a id="email-link" href="#" aria-label="Send email to Silvia" title="Send email to Silvia">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/silvia-vicentini-707743210/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </span>
+    </span>
   </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var emailLink = document.getElementById('email-link');
+      if (!emailLink) return;
+      var user = 'silvia.vicentini.work';
+      var domain = 'gmail.com';
+      var mailto = 'mailto:' + user + '@' + domain;
+      emailLink.href = mailto;
+      emailLink.target = '_blank';
+      emailLink.rel = 'noopener noreferrer';
+      emailLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        window.open(mailto, '_blank');
+      });
+    });
+  </script>
+  <script data-goatcounter="https://attention-span.goatcounter.com/count"
+          async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
