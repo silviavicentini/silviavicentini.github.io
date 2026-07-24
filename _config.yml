@@ -5,6 +5,8 @@ baseurl: ""
 url: "https://silviavicentini.github.io"
 lang: it
 
+image: /assets/images/og-image.svg
+
 hero:
   role: ""
   name: "Pensieri <br> sull'intelligenza artificiale  <br> e su come diamo forma alla conoscenza."

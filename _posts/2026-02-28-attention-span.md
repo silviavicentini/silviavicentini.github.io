@@ -2,6 +2,7 @@
 layout: post
 title: Il costo nascosto dell'AI generativa
 subtitle: Attenzione e apprendimento nell'epoca della GenAI
+description: "Un'analisi sull'impatto dell'AI generativa sull'attenzione, tra consumo di contenuti frammentati e apprendimento attivo."
 category: ai
 selected: true
 ---

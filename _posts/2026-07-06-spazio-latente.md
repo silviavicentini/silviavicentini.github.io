@@ -2,6 +2,7 @@
 layout: post
 title: "Dentro le reti neurali"
 subtitle: "Dalla rappresentazione vettoriale allo spazio latente"
+description: "Una guida introduttiva alle reti neurali, agli spazi latenti e a come i modelli rappresentano i dati internamente."
 category: ai
 selected: false
 ---
