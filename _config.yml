@@ -5,7 +5,7 @@ baseurl: ""
 url: "https://silviavicentini.github.io"
 lang: it
 
-image: /assets/images/og-image.svg
+image: /assets/images/og-image.png
 
 hero:
   role: ""
