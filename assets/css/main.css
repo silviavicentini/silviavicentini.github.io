@@ -463,9 +463,8 @@ nav {
 }
 
 .dot-ai     { background: var(--purple); }
-.dot-lang   { background: var(--teal); }
-.dot-logic  { background: var(--teal-dk); }
-.dot-theory { background: var(--purple-dk); }
+.dot-logic  { background: var(--teal); }
+.dot-theory { background: var(--ink-muted); }
 
 .post-title {
   font-family: 'Playfair Display', serif;
