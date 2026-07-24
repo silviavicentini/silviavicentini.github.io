@@ -16,8 +16,6 @@ Dal punto di vista matematico, possiamo codificare questo processo tramite funzi
 - le matrici rappresentano trasformazioni su questi vettori, che possono modificarne la dimensione e il contenuto;
 - le funzioni tipicamente agiscono su ogni elemento del vettore trasformandone il valore.[^1]
 
-[^1]: Vettori e matrici sono in realtà casi particolari di un oggetto più generale, il **tensore**: un vettore è un tensore a una dimensione, una matrice un tensore a due dimensioni, e così via per dimensioni superiori. I tensori sono più difficili da visualizzare, ma la logica delle trasformazioni che li coinvolgono resta la stessa.
-
 
 Queste strutture mescolano, comprimono e modificano l'input, trasformandolo progressivamente nell'output. Tali operazioni vengono alternate in sequenza in cosiddetti **layer** successivi, ognuno dei quali produce degli output intermedi. Lo spazio a cui appartengono tali vettori è uno **spazio vettoriale** detto **spazio latente**: un luogo interno al calcolo in cui la rete organizza informazioni che non corrispondono direttamente all'input o all'output, ma che sono essenziali per il processo di elaborazione.
 
@@ -65,3 +63,7 @@ Ottenendo campioni da questa distribuzione, abbiamo quindi che probabilità alte
 
 ## Conclusioni
 Lo spazio latente è uno degli aspetti più affascinanti delle reti neurali. Sebbene nasca come una semplice rappresentazione intermedia necessaria ai calcoli della rete, spesso finisce per organizzare informazioni molto più ricche di quanto ci si potrebbe aspettare. In alcuni casi, come gli embedding linguistici, questa organizzazione riflette relazioni semantiche tra gli oggetti rappresentati; in altri, come nei modelli generativi, costituiscono un aspetto critico per la formazione di nuove immagini. Comprendere la struttura di questi spazi è uno dei modi più efficaci per interpretare il comportamento delle reti neurali e progettare modelli sempre più versatili, rappresentativi e potenti.
+
+## Note
+
+[^1]: Vettori e matrici sono in realtà casi particolari di un oggetto più generale, il **tensore**: un vettore è un tensore a una dimensione, una matrice un tensore a due dimensioni, e così via per dimensioni superiori. I tensori sono più difficili da visualizzare, ma la logica delle trasformazioni che li coinvolgono resta la stessa.

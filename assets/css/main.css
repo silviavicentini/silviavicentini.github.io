@@ -462,8 +462,10 @@ nav {
   margin-right: 0;
 }
 
-.dot-ai   { background: var(--purple); }
-.dot-lang { background: var(--teal); }
+.dot-ai     { background: var(--purple); }
+.dot-lang   { background: var(--teal); }
+.dot-logic  { background: var(--teal-dk); }
+.dot-theory { background: var(--purple-dk); }
 
 .post-title {
   font-family: 'Playfair Display', serif;
@@ -746,7 +748,7 @@ nav {
 }
 
 .post-body code {
-  font-family: 'Courier New', monospace;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
   font-size: 0.85em;
   background: var(--beige-mid);
   padding: 0.1em 0.4em;
@@ -755,16 +757,18 @@ nav {
 }
 
 .post-body pre {
-  background: #1a1a1a;
+  background: hwb(231 26% 71%);
   padding: 1.25rem 1.5rem;
   border-radius: 4px;
   overflow-x: auto;
   margin: 1.8rem 0;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.05);
 }
 
 .post-body pre code {
   background: none;
-  color: #e8e0f0;
+  color: #ffffff;
+  font-family: 'Fira Code', 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
   font-size: 0.88rem;
   padding: 0;
 }
@@ -1158,7 +1162,28 @@ footer {
   gap: 2.0rem;
 }
 
+.footer-meta {
+  font-size: 0.95rem;
+  color: var(--ink-muted);
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+.footer-meta a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(0,0,0,0.15);
+}
+
+.footer-meta a:hover,
+.footer-meta a:focus {
+  color: var(--purple);
+  border-color: rgba(120,9,135,0.5);
+}
+
 .footer-contact {
+  color: inherit;
+  font-size: 1.1rem;
   display: inline-flex;
   align-items: center;
   gap: 1rem;
@@ -1168,7 +1193,6 @@ footer {
   color: inherit;
   text-decoration: none;
   transition: color 0.2s;
-  font-size: 1.1rem;
 }
 
 .footer-contact a:hover,
