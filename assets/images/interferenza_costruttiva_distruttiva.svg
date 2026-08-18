@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="602.29785"
+   viewBox="0 0 602.29785 422.13574"
+   role="img"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="interferenza_costruttiva_distruttiva.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   height="422.13574"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview10"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="false"
+     showgrid="false"
+     inkscape:zoom="2.6369565"
+     inkscape:cx="301.29431"
+     inkscape:cy="210.65952"
+     inkscape:window-width="2560"
+     inkscape:window-height="1494"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10">
+    <sodipodi:guide
+       position="281.97333,480.62401"
+       orientation="0,-1"
+       id="guide10"
+       inkscape:locked="false" />
+    <inkscape:grid
+       id="grid10"
+       units="px"
+       originx="-38.851069"
+       originy="-19.486328"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
+  <title
+     id="title1">Interferenza costruttiva e distruttiva</title>
+  <desc
+     id="desc1">Due onde sonore che si sommano: in fase producono un'onda più ampia (interferenza costruttiva), in opposizione di fase si annullano (interferenza distruttiva)</desc>
+  <defs
+     id="defs1">
+    <marker
+       id="arrow"
+       viewBox="0 0 10 10"
+       refX="8"
+       refY="5"
+       markerWidth="6"
+       markerHeight="6"
+       orient="auto-start-reverse">
+      <path
+         d="M 2,1 8,5 2,9"
+         fill="none"
+         stroke="context-stroke"
+         stroke-width="1.5"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         id="path1" />
+    </marker>
+  </defs>
+  <text
+     x="1.1489313"
+     y="10.513672"
+     style="color:#0b0b0b;font-weight:500;font-size:14px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#0b0b0b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text1">Interferenza costruttiva</text>
+  <path
+     d="m 1.1489313,60.513672 q 29.9999997,-30 59.9999997,0 30,30 59.999999,0 30,-30 60,0 30,30 60,0 30,-30 60,0 30,30 60,0 30,-30 60,0 30,30 60,0 30,-30 60,0 30,30 60,0"
+     fill="none"
+     stroke="#378ADD"
+     stroke-width="1.5"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:none;stroke:#378add;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="path2" />
+  <text
+     x="532.50916"
+     y="41.412266"
+     text-anchor="end"
+     fill="#185FA5"
+     style="color:#0b0b0b;font-weight:400;font-size:12px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:end;opacity:1;fill:#378add;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text2">onda 1</text>
+  <path
+     d="m 1.1489313,90.513672 q 29.9999997,-30 59.9999997,0 30,29.999998 59.999999,0 30,-30 60,0 30,29.999998 60,0 30,-30 60,0 30,29.999998 60,0 30,-30 60,0 30,29.999998 60,0 30,-30 60,0 30,29.999998 60,0"
+     fill="none"
+     stroke="#1D9E75"
+     stroke-width="1.5"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:none;stroke:#1d9e75;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="path3" />
+  <text
+     x="231.02527"
+     y="118.44112"
+     text-anchor="end"
+     fill="#0F6E56"
+     style="color:#0b0b0b;font-weight:400;font-size:12px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:end;opacity:1;fill:#1d9e75;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text3">onda 2</text>
+  <line
+     x1="1.1489313"
+     y1="130.51367"
+     x2="601.14893"
+     y2="130.51367"
+     stroke="var(--border)"
+     stroke-width="0.5"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#000000;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="line3" />
+  <text
+     x="1.1489313"
+     y="125.51367"
+     style="color:#0b0b0b;font-weight:400;font-size:12px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#52514e;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text4">somma</text>
+  <path
+     d="m 1.1489313,170.51367 q 29.9999997,-70 59.9999997,0 30,70 59.999999,0 30,-70 60,0 30,70 60,0 30,-70 60,0 30,70 60,0 30,-70 60,0 30,70 60,0 30,-70 60,0 30,70 60,0"
+     fill="none"
+     stroke="#D85A30"
+     stroke-width="2.5"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:none;stroke:#d85a30;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="path4" />
+  <text
+     x="252.93784"
+     y="219.64392"
+     fill="#993C1D"
+     style="color:#0b0b0b;font-weight:400;font-size:12px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#52514e;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text5">ampiezza raddoppiata</text>
+  <line
+     x1="1.5281579"
+     y1="226.65135"
+     x2="601.52814"
+     y2="226.65135"
+     stroke="var(--border)"
+     stroke-width="0.5"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#000000;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="line5" />
+  <text
+     x="1.1489313"
+     y="260.51367"
+     style="color:#0b0b0b;font-weight:500;font-size:14px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#0b0b0b;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text6">Interferenza distruttiva</text>
+  <path
+     d="m 1.1489313,310.51367 q 29.9999997,-30 59.9999997,0 30,30 59.999999,0 30,-30 60,0 30,30 60,0 30,-30 60,0 30,30 60,0 30,-30 60,0 30,30 60,0 30,-30 60,0 30,30 60,0"
+     fill="none"
+     stroke="#378ADD"
+     stroke-width="1.5"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:none;stroke:#378add;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="path6" />
+  <text
+     x="563.98486"
+     y="291.41226"
+     text-anchor="end"
+     fill="#185FA5"
+     style="color:#0b0b0b;font-weight:400;font-size:12px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:end;opacity:1;fill:#378add;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text7">onda originale</text>
+  <path
+     d="m 1.1489313,310.51367 q 29.9999997,30 59.9999997,0 30,-30 59.999999,0 30,30 60,0 30,-30 60,0 30,30 60,0 30,-30 60,0 30,30 60,0 30,-30 60,0 30,30 60,0 30,-30 60,0"
+     fill="none"
+     stroke="#D4537E"
+     stroke-width="1.5"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:none;stroke:#d4537e;stroke-width:1.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="path7" />
+  <text
+     x="309.52487"
+     y="338.2746"
+     text-anchor="end"
+     fill="#993556"
+     style="color:#0b0b0b;font-weight:400;font-size:12px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:end;opacity:1;fill:#d4537e;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text8">onda invertita</text>
+  <line
+     x1="1.1489313"
+     y1="375.51367"
+     x2="601.14893"
+     y2="375.51367"
+     stroke="var(--border)"
+     stroke-width="0.5"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#000000;stroke-width:0.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="line8" />
+  <text
+     x="1.1489313"
+     y="370.51367"
+     style="color:#0b0b0b;font-weight:400;font-size:12px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#52514e;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text9">somma</text>
+  <line
+     x1="1.1489313"
+     y1="405.51367"
+     x2="601.14893"
+     y2="405.51367"
+     stroke="#1D9E75"
+     stroke-width="2.5"
+     style="color:#0b0b0b;font-weight:400;font-size:16px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#000000;stroke:#1d9e75;stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="line9" />
+  <text
+     x="262.41849"
+     y="419.37598"
+     fill="#0F6E56"
+     style="color:#0b0b0b;font-weight:400;font-size:12px;font-family:anthropic-sans, '-apple-system', BlinkMacSystemFont, 'Segoe UI', sans-serif;dominant-baseline:auto;text-anchor:start;opacity:1;fill:#52514e;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter"
+     id="text10">ampiezza azzerata</text>
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Interferenza costruttiva e distruttiva</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
